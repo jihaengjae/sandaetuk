@@ -1,0 +1,2129 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+   (산대특) 2026년 2차 모집 랜딩 — 지행재직업전문학교
+   file : 지행재_산대특랜딩_v2_1_0.html
+   © 2026 지행재직업전문학교 · https://www.jhj.education
+   울산광역시 남구 북부순환도로 17 남운프라자 502호 · 052-267-3172
+   무단 복제·배포·2차적 저작물 작성을 금합니다. 인용·링크는 자유입니다.
+  ------------------------------------------------------------
+   🔁 회차가 바뀌면 고칠 곳 — 이 목록대로 전부 훑을 것 (누락 방지)
+     ① 즉답 블록  — 과정명·개강일 3건·주야 구분
+     ② 과정 카드   — 개강일/종료일/시수/일수/교사 3장
+     ③ 가격 카드   — 훈련비·국비지원·자기부담금 3장
+     ④ 비교표      — 개강일/종료일/기간/자기부담금 행
+     ⑤ JSON-LD     — Program 3블록의 startDate·endDate·timeToComplete·offers.price
+     ⑥ 자가진단기  — COURSES(자격명별 open·weeks·time·cost)
+     ⑦ GTM 라벨    — page:'sandaetuk_2026_2' 를 새 회차로
+     ⑧ 기준일      — 즉답 블록 하단·푸터 2곳
+   🗓 jhj.education 런칭 시 처리 (놓치면 중복 콘텐츠)
+     · /course/sandaeteuk/ 가 생기면 이 파일의 canonical 을
+       https://jhj.education/course/sandaeteuk/ 로 바꾼다.
+       (index 유지 · 지수를 자사 도메인으로 합치고 중복을 해소한다)
+     · og:url 도 같이 바꾼다. 본문은 그대로 둔다.
+   🔴 배포 전 반드시 교체할 것 (3건)
+     ① canonical · og:url · og:image — 실제 배포 URL로 교체
+        (현재 https://jihaengjae.github.io/sandaetuk/ 가정값)
+     ② 자가진단기 PREVIEW_MODE = true → false  (파일 하단 도메인 잠금 블록)
+     ④ 잔여석 숫자 — data-seat 표시 3곳
+     ⑤ (해소 2026-09-14) 면제 종료일 2027-01-11 확정 · 300시간 훈련비 확정
+  ------------------------------------------------------------
+   v2_1_0 (2026-09-14)
+     · 2과정(9/28 동시 개강) → 3과정(10/06 · 10/12 · 10/26) 전면 교체
+     · noindex,nofollow 제거 → index,follow. canonical·OG·JSON-LD 신설
+     · JSON-LD 4종: EducationalOrganization · Course×3 · FAQPage · BreadcrumbList
+     · AI 인용 대상 즉답 블록 신설(첫 화면), H2별 자족 문장 도입
+     · 자가진단기 v2 → v3_0_0(군 특기 경력 인정) 내장 교체
+     · 주소 '5층' → '502호' 통일, 지정번호 제 울산-2015-0001호 노출
+     · [v2_1_0] 주간/야간 시각 구분 강화, 고용24 실측치(33명·20명·60.6%·후기14) 반영
+     · [v2_1_0] 300시간 훈련비 1,986,000원 · 자기부담금 198,600원 확정 반영
+     · [v2_1_0] GEO 기준값을 스킬 T23 ① 단일 출처에 맞춰 교정
+       (좌표 35.5516564/129.2653238 · 우편번호 44632 · 법인명 · 최초지정일)
+     · [v2_1_0] JSON-LD를 Course → EducationalOccupationalProgram 3블록으로 교체
+       (스킬 T23 ④ 판정기준 「과정 시수·기간을 다루면 Program 필수」)
+  ============================================================
+-->
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<title>산대특 울산 — 산업안전·위험물 국비 3과정 10월 개강 | 지행재직업전문학교</title>
+<meta name="description" content="산대특(산업구조변화대응 등 특화훈련) 2026년 2차 3개 과정을 울산에서 10월 개강합니다. 선임안전관리 양성 300시간(10월 26일)·향상 220시간(10월 6일)·위험물 안전관리 180시간(10월 12일). 훈련비는 국비 지원, 주간반은 훈련장려금 월 20만원.">
+<link rel="canonical" href="https://jihaengjae.github.io/sandaetuk/">
+<meta name="author" content="지행재직업전문학교">
+<meta name="geo.region" content="KR-31">
+<meta name="geo.placename" content="울산광역시 남구 무거동">
+<meta name="geo.position" content="35.5516564;129.2653238">
+<meta name="ICBM" content="35.5516564, 129.2653238">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="지행재직업전문학교">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="산대특 울산 — 산업안전·위험물 국비 3과정 10월 개강">
+<meta property="og:description" content="선임안전관리 양성 300시간·향상 220시간·위험물 안전관리 180시간. 훈련비 국비 지원, 주간반 훈련장려금 월 20만원. 울산 남구 요건 해당 시 자기부담금 0원.">
+<meta property="og:url" content="https://jihaengjae.github.io/sandaetuk/">
+<meta property="og:image" content="https://jihaengjae.github.io/sandaetuk/hrd_rate_school.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="JHJ_Favicon.ico" type="image/x-icon">
+<style>
+:root{
+  --navy:#102A43;--blue:#1B3A5C;--accent:#E8530E;--accent-hover:#D14400;
+  --gold:#F0A500;--bg:#F8F8F4;--card:#FFF;--text:#2A2A2A;--sub:#5D6872;
+  --border:#E4E4DE;--green:#0A7B4F;--red:#CC3333;--accent-bg:#FFF3ED;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);line-height:1.8;font-size:16.5px;-webkit-font-smoothing:antialiased}
+
+.hero{background:linear-gradient(160deg,#0B1F32 0%,var(--navy) 40%,var(--blue) 100%);color:#fff;padding:56px 20px 52px;text-align:center;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:48px;background:var(--bg);clip-path:ellipse(55% 100% at 50% 100%)}
+.tag{display:inline-block;background:var(--accent);font-size:12.5px;font-weight:700;padding:5px 14px;border-radius:16px;margin-bottom:16px;letter-spacing:.3px}
+.hero h1{font-family:'Noto Serif KR',serif;font-size:clamp(25px,5.4vw,40px);font-weight:700;line-height:1.35;margin-bottom:12px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero-sub{font-size:15px;opacity:.9;max-width:600px;margin:0 auto 26px;line-height:1.7}
+.hero-stats{display:flex;justify-content:center;gap:26px;flex-wrap:wrap;margin-bottom:26px}
+.hero-stat{text-align:center}
+.hero-stat strong{display:block;font-family:'Noto Serif KR',serif;font-size:25px;color:var(--gold)}
+.hero-stat span{font-size:12px;opacity:.72}
+.btn{display:inline-block;font-weight:700;border-radius:8px;text-decoration:none;transition:transform .2s,box-shadow .2s;cursor:pointer}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--accent);color:#fff;padding:14px 34px;font-size:16px;box-shadow:0 4px 16px rgba(232,83,14,.3);border:none}
+.btn-primary:hover{box-shadow:0 8px 28px rgba(232,83,14,.4)}
+.hero-ctas{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.eligibox{margin:22px 0;padding:30px 24px;text-align:center;border-radius:14px;background:linear-gradient(135deg,#0B1F32,var(--navy));color:#fff;box-shadow:0 6px 24px rgba(16,42,67,.22)}
+.elig-h{font-family:'Noto Serif KR',serif;font-size:20px;font-weight:700;margin-bottom:6px}
+.elig-d{font-size:14px;opacity:.85;margin-bottom:18px}
+.elig-d strong{color:var(--gold)}
+.btn-elig{background:var(--accent);color:#fff;padding:14px 34px;font-size:16px;border:none;font-family:'Noto Sans KR',sans-serif;box-shadow:0 4px 16px rgba(232,83,14,.35)}
+.elig-n{font-size:12.5px;opacity:.65;margin-top:12px}
+#elig-overlay{display:none;position:fixed;inset:0;background:rgba(10,25,47,.8);z-index:9998;align-items:center;justify-content:center;padding:16px}
+.elig-modal{background:#F7F8FA;border-radius:14px;width:100%;max-width:800px;height:88vh;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.4);overflow:hidden}
+.elig-close{position:absolute;top:10px;right:12px;z-index:2;background:rgba(0,0,0,.55);color:#fff;border:none;width:34px;height:34px;border-radius:50%;font-size:18px;cursor:pointer;line-height:1}
+.elig-modal iframe{width:100%;height:100%;border:0;display:block}
+.btn-form{background:#fff;color:var(--navy);padding:14px 30px;font-size:15.5px;border:2px solid var(--accent);font-family:'Noto Sans KR',sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.btn-form:hover{background:var(--accent-bg)}
+.btn-form-o{background:var(--card);color:var(--navy);padding:13px 28px;font-size:15px;border:2px solid var(--accent);font-family:'Noto Sans KR',sans-serif}
+.cta-block .btn-form{background:rgba(255,255,255,.1);color:#fff;border:2px solid rgba(255,255,255,.6)}
+.cta-block .btn-form:hover{background:rgba(255,255,255,.2)}
+.cta-dual{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.cta-note{font-size:12.5px;color:var(--sub);margin-top:12px}
+.cta-block .cta-note{color:rgba(255,255,255,.7)}
+.hero-deadline{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);color:#fff;font-size:12.5px;font-weight:700;padding:5px 14px;border-radius:16px;margin-top:16px}
+
+.btn-kakao{display:inline-flex;align-items:center;gap:8px;background:#FEE500;color:#3A1D1D;padding:12px 22px;font-size:14.5px;font-weight:700;border-radius:8px;border:none;cursor:pointer;font-family:'Noto Sans KR',sans-serif;box-shadow:0 4px 14px rgba(254,229,0,.4);transition:transform .2s;text-decoration:none}
+.btn-kakao:hover{transform:translateY(-2px)}
+.kakao-badge{display:inline-flex;align-items:center;justify-content:center;background:#3A1D1D;color:#FEE500;width:22px;height:22px;border-radius:50%;font-size:10px;font-weight:900;flex-shrink:0;letter-spacing:-.5px}
+.kakao-float{position:fixed;bottom:28px;right:24px;z-index:1000;display:flex;align-items:center;gap:8px;background:#FEE500;color:#3A1D1D;border:none;border-radius:50px;padding:12px 20px;font-size:14px;font-weight:700;font-family:'Noto Sans KR',sans-serif;cursor:pointer;box-shadow:0 4px 20px rgba(0,0,0,.25);transition:transform .2s;text-decoration:none}
+.kakao-float:hover{transform:translateY(-3px)}
+
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.section{padding:42px 0}
+.section+.section{border-top:1px solid var(--border)}
+h2{font-family:'Noto Serif KR',serif;font-size:clamp(21px,4vw,27px);font-weight:700;color:var(--navy);margin-bottom:16px;line-height:1.4}
+h3{font-size:17.5px;font-weight:700;color:var(--blue);margin:26px 0 10px}
+p{margin-bottom:14px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.note{font-size:13px;color:var(--sub);line-height:1.7}
+
+.instant{background:var(--accent-bg);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;padding:20px 24px;margin:26px 0;font-size:15px}
+.instant strong{color:var(--accent)}
+
+.tw{overflow-x:auto;margin:22px 0;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+table{width:100%;border-collapse:collapse;background:var(--card);font-size:14px;min-width:520px}
+thead{background:var(--navy);color:#fff}
+th{padding:12px 14px;text-align:left;font-weight:700;white-space:nowrap}
+td{padding:11px 14px;border-bottom:1px solid var(--border)}
+tbody tr:last-child td{border-bottom:none}
+.hl-row{background:var(--accent-bg)!important}
+.hl-row td{font-weight:600}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;margin-left:5px;vertical-align:middle}
+.badge-g{background:var(--green);color:#fff}
+.badge-o{background:var(--accent);color:#fff}
+
+/* 진입 경로 */
+.paths{display:grid;gap:10px;margin:22px 0}
+.path{background:var(--card);border-radius:10px;padding:16px 20px;box-shadow:0 1px 6px rgba(0,0,0,.04);border-left:4px solid var(--blue);font-size:15px}
+.path b{color:var(--navy)}
+
+/* 가격 패널 */
+.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0}
+.price-card{background:var(--card);border-radius:12px;padding:22px 20px;box-shadow:0 2px 12px rgba(0,0,0,.06);border-top:3px solid var(--accent)}
+.price-card h4{font-size:15px;color:var(--navy);margin-bottom:14px;font-weight:700;line-height:1.4}
+.price-row{display:flex;justify-content:space-between;font-size:13.5px;padding:6px 0;border-bottom:1px dashed var(--border)}
+.price-row:last-child{border-bottom:none}
+.price-row span:last-child{font-weight:700;color:var(--navy)}
+.price-big{font-family:'Noto Serif KR',serif;font-size:24px;color:var(--accent);font-weight:700;text-align:center;margin:12px 0 4px}
+.price-zero{text-align:center;font-size:13px;color:var(--green);font-weight:700}
+.strike{text-decoration:line-through;color:var(--sub);font-weight:400}
+
+/* 장벽 */
+.bl{background:var(--card);border-radius:12px;padding:8px 22px;margin:22px 0;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.bi{display:flex;gap:14px;padding:15px 0;border-bottom:1px dashed var(--border);align-items:flex-start}
+.bi:last-child{border-bottom:none}
+.bi-q{flex-shrink:0;width:132px;font-size:14px;color:var(--sub);font-weight:500;padding-top:1px}
+.bi-a{font-size:14.8px;line-height:1.7}
+.bi-a b{color:var(--navy)}
+
+/* 취업 실적 */
+.jobstat{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:22px 0}
+.js{background:var(--card);border-radius:10px;padding:20px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.05);border-top:3px solid var(--green)}
+.js strong{display:block;font-family:'Noto Serif KR',serif;font-size:27px;color:var(--green);line-height:1.1}
+.js span{font-size:12.5px;color:var(--sub)}
+
+/* 교사 */
+.tcard{background:var(--card);border-radius:12px;padding:22px;margin:14px 0;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.tcard-h{font-size:14px;font-weight:700;color:var(--accent);margin-bottom:14px;padding-bottom:9px;border-bottom:2px solid var(--accent-bg)}
+.t{padding:11px 0;border-bottom:1px dashed var(--border)}
+.t:last-child{border-bottom:none}
+.t-name{font-size:16px;font-weight:700;color:var(--navy)}
+.t-name em{font-style:normal;font-size:12.5px;color:var(--sub);font-weight:500;margin-left:6px}
+.t-line{font-size:14px;color:var(--sub);line-height:1.65;margin-top:3px}
+.t-cert{font-size:13.5px;color:var(--blue);font-weight:600;margin-top:3px}
+
+details{background:var(--card);border-radius:10px;margin:16px 0;box-shadow:0 1px 6px rgba(0,0,0,.04)}
+summary{padding:15px 20px;font-weight:700;font-size:14.5px;color:var(--navy);cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:' ▾';color:var(--accent)}
+details[open] summary::after{content:' ▴'}
+.det-body{padding:0 20px 18px;font-size:14px;color:var(--sub);line-height:1.75}
+
+.score-panel{background:var(--card);border-radius:12px;padding:24px;box-shadow:0 2px 10px rgba(0,0,0,.05);margin:22px 0;text-align:center}
+.score-big{font-family:'Noto Serif KR',serif;font-size:40px;font-weight:700;color:var(--accent);line-height:1}
+.score-big span{font-size:17px;color:var(--sub);font-weight:500}
+.score-sub{font-size:13px;color:var(--sub);margin-top:6px}
+.capgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.cap{margin:0;background:var(--card);border-radius:10px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.06);cursor:zoom-in;transition:transform .2s}
+.cap:hover{transform:translateY(-2px)}
+.cap img{width:100%;height:auto;display:block}
+.cap figcaption{font-size:12px;color:var(--sub);padding:9px 12px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:8px;line-height:1.5}
+.cap-z{flex-shrink:0;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:11px;padding:2px 8px;border-radius:10px}
+#zoom-overlay{display:none;position:fixed;inset:0;background:rgba(10,25,47,.92);z-index:10000;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+#zoom-overlay img{max-width:100%;max-height:92vh;border-radius:8px;background:#fff}
+.zoom-close{position:absolute;top:14px;right:16px;background:rgba(0,0,0,.5);color:#fff;border:none;width:38px;height:38px;border-radius:50%;font-size:19px;cursor:pointer;line-height:1}
+.score-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:10px;margin-top:20px}
+.score-item{background:var(--bg);border-radius:8px;padding:13px 8px}
+.score-item strong{display:block;font-size:19px;color:var(--navy);font-family:'Noto Serif KR',serif;line-height:1.2}
+.score-item span{font-size:11.5px;color:var(--sub)}
+.score-note{font-size:12.5px;color:var(--sub);margin-top:14px}
+.proof{background:linear-gradient(135deg,#F0F4F8,#E8EDF2);border-radius:12px;padding:22px;margin:14px 0}
+.proof-quote{font-size:14.8px;font-style:italic;color:var(--blue);margin-bottom:8px;line-height:1.7}
+.proof-name{font-size:12.5px;font-weight:700;color:var(--sub)}
+
+.step{background:var(--card);border-radius:10px;padding:18px 20px;margin-bottom:11px;box-shadow:0 1px 6px rgba(0,0,0,.03);border-left:4px solid var(--blue)}
+.step.active{border-left-color:var(--accent)}
+.sn{display:inline-block;background:var(--blue);color:#fff;width:26px;height:26px;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:700;margin-right:8px}
+.step.active .sn{background:var(--accent)}
+.step p{margin:6px 0 0;font-size:14.5px;color:var(--sub)}
+
+.mid-cta{background:var(--card);border:2px solid var(--accent);border-radius:12px;padding:24px;text-align:center;margin:32px 0}
+.mid-cta p{margin-bottom:12px;font-weight:500;font-size:15px;color:var(--navy)}
+
+.faq{background:var(--card);border-radius:10px;margin-bottom:10px;overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,.03)}
+.faq-q{padding:16px 20px;font-weight:700;font-size:15px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;color:var(--navy)}
+.faq-q:hover{background:#F6F8FA}
+.faq-q::after{content:'+';font-size:20px;color:var(--accent);flex-shrink:0}
+.faq.open .faq-q::after{content:'\2212'}
+.faq-a{padding:0 20px;max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;font-size:14.5px;color:var(--sub);line-height:1.75}
+.faq.open .faq-a{max-height:700px;padding:0 20px 18px}
+.faq-a b{color:var(--text)}
+
+.cta-block{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;border-radius:14px;padding:36px 28px;text-align:center;margin:40px 0 24px}
+.cta-block h2{color:#fff;margin-bottom:8px}
+.cta-block p{opacity:.88;margin-bottom:20px;font-size:15px}
+.cta-urgency{display:inline-block;background:var(--red);color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:12px;margin-bottom:14px}
+
+.footer{text-align:center;padding:28px 20px;font-size:12.5px;color:var(--sub);border-top:1px solid var(--border)}
+#consult-overlay{display:none;position:fixed;inset:0;background:rgba(10,25,47,0.75);z-index:9999;align-items:center;justify-content:center}
+
+@media(max-width:600px){
+  .hero{padding:46px 16px 42px}
+  .hero-stats{gap:16px}
+  .hero-ctas{flex-direction:column;align-items:center}
+  th,td{padding:9px 10px;font-size:13px}
+  .price-grid{grid-template-columns:1fr}
+  .capgrid{grid-template-columns:1fr}
+  .bi{flex-direction:column;gap:3px}
+  .bi-q{width:auto;font-size:13px;font-weight:700;color:var(--accent)}
+  .kakao-float{bottom:20px;right:16px;padding:10px 16px;font-size:13px}
+}
+</style>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TC7Z5NPC');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "179a22e853134b0";
+if(window.wcs) { wcs_do(); }
+</script>
+
+<script>
+/* ── 전환 추적 ──────────────────────────────
+   ⚠️ A안에는 naverConversionCall()이 호출만 되고 정의가 없었음 (전환 미기록).
+   전환유형 코드 "2"(신청·예약)는 네이버 광고관리시스템 설정과 반드시 대조할 것. */
+function naverConversionCall(){
+  try{
+    if(window.wcs){
+      var _nasa = {};
+      _nasa["cnv"] = wcs.cnv("2","1");
+      wcs_do(_nasa);
+    }
+  }catch(e){}
+  try{
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'phone_click', page:'sandaetuk_2026_2'});
+  }catch(e){}
+  return true;
+}
+</script>
+
+<script>
+/* ── 팝업 제어: 버튼보다 먼저 정의되어야 함 (본문 중간 클릭 대비) ── */
+var __autoShown = false;      /* 상담폼 자동 노출 1회 제한 */
+var __popupTrigger = '';
+
+function openConsultPopup(src){
+  var ov = document.getElementById('consult-overlay');
+  if(!ov) return;
+  if(src === undefined){ if(__autoShown) return; __autoShown = true; }
+  else { __autoShown = true; __popupTrigger = src; }
+  ov.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  try{
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'popup_open', page:'sandaetuk_2026_2', trigger:__popupTrigger});
+  }catch(e){}
+}
+function closeConsultPopup(){
+  var ov = document.getElementById('consult-overlay');
+  if(ov){ ov.style.display='none'; }
+  document.body.style.overflow='';
+}
+function openEligibility(){
+  var ov = document.getElementById('elig-overlay');
+  var f  = document.getElementById('elig-frame');
+  if(!ov || !f) return;
+  if(!f.getAttribute('data-loaded')){
+    var src = document.getElementById('elig-src');
+    if(src && 'srcdoc' in f){ f.srcdoc = src.textContent; }
+    else { f.setAttribute('src','eligibility.html'); }   /* 구형 브라우저 폴백 */
+    f.setAttribute('data-loaded','1');
+  }
+  ov.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  try{
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'eligibility_open', page:'sandaetuk_2026_2'});
+  }catch(e){}
+}
+function closeEligibility(){
+  var ov = document.getElementById('elig-overlay');
+  if(ov){ ov.style.display='none'; }
+  document.body.style.overflow='';
+}
+function openZoom(src, alt){
+  var ov=document.getElementById('zoom-overlay'), im=document.getElementById('zoom-img');
+  if(!ov||!im) return;
+  im.src=src; im.alt=alt||'';
+  ov.style.display='flex'; document.body.style.overflow='hidden';
+}
+function closeZoom(){
+  var ov=document.getElementById('zoom-overlay');
+  if(ov){ ov.style.display='none'; }
+  document.body.style.overflow='';
+}
+
+/* ── 이벤트 위임: 인라인 onclick 없이 동작 (CSP·샌드박스 대응) ── */
+document.addEventListener('click', function(e){
+  var fig = e.target.closest ? e.target.closest('[data-zoom]') : null;
+  if(fig){ var im=fig.querySelector('img'); openZoom(fig.getAttribute('data-zoom'), im?im.alt:''); return; }
+  var el = e.target.closest ? e.target.closest('[data-act]') : null;
+  if(!el) return;
+  var act = el.getAttribute('data-act');
+  if(act === 'elig'){ e.preventDefault(); openEligibility(); }
+  else if(act === 'elig-close'){ e.preventDefault(); closeEligibility(); }
+  else if(act === 'form'){ e.preventDefault(); openConsultPopup(el.getAttribute('data-src') || 'cta'); }
+  else if(act === 'form-close'){ e.preventDefault(); closeConsultPopup(); }
+  else if(act === 'call'){ naverConversionCall(); }   /* tel: 링크는 기본동작 유지 */
+  else if(act === 'zoom-close'){ e.preventDefault(); closeZoom(); }
+});
+document.addEventListener('keydown', function(e){
+  if(e.key === 'Escape'){ closeEligibility(); closeConsultPopup(); closeZoom(); }
+});
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PGDFXVSL');</script>
+<!-- End Google Tag Manager -->
+  
+<style>
+/* ===== v2_0_0 추가분 ===== */
+.answer-lead{background:var(--card);border:1px solid var(--border);border-top:4px solid var(--navy);border-radius:12px;padding:26px 24px;margin:26px 0 8px;box-shadow:0 2px 12px rgba(0,0,0,.05)}
+.answer-lead h2{font-size:clamp(19px,3.6vw,23px);margin-bottom:12px}
+.answer-lead p{font-size:15.5px;line-height:1.85}
+.answer-lead .asof{font-size:12.5px;color:var(--sub);margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--border)}
+.price-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}
+@media(max-width:720px){.price-grid3{grid-template-columns:1fr}}
+.ccard{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 2px 12px rgba(0,0,0,.06);border-top:3px solid var(--blue)}
+.ccard .cc-t{font-size:15.5px;font-weight:700;color:var(--navy);line-height:1.4;margin-bottom:4px}
+.ccard .cc-s{font-size:12.5px;color:var(--sub);margin-bottom:12px}
+.ccard .cc-d{font-family:'Noto Serif KR',serif;font-size:21px;color:var(--accent);font-weight:700;margin-bottom:2px}
+.ccard .cc-dd{font-size:12px;color:var(--sub);margin-bottom:12px}
+.ccard ul{list-style:none;font-size:13.5px;line-height:1.9}
+.ccard ul li b{color:var(--navy)}
+.seat{font-weight:700;color:var(--accent)}
+/* 주간/야간 구분 */
+.mode{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:800;padding:7px 14px;border-radius:20px;margin-bottom:12px;letter-spacing:-.2px}
+.mode em{font-style:normal;font-weight:600;font-size:12px;opacity:.9}
+.mode-day{background:#E7F5EE;color:#0A5C3B;border:1.5px solid #0A7B4F}
+.mode-eve{background:#1B3A5C;color:#FFD98A;border:1.5px solid #102A43}
+.ccard.is-day{border-top-color:#0A7B4F}
+.ccard.is-eve{border-top-color:#F0A500}
+.badge{font-size:11.5px;padding:3px 9px;border-radius:5px;margin-left:6px}
+.mode-row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:0 auto 20px}
+.mode-row .mode{margin-bottom:0}
+table .badge-g{background:#0A7B4F}
+table .badge-o{background:#B57200}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "EducationalOrganization",
+        "LocalBusiness"
+      ],
+      "@id": "https://jhj.education/#school",
+      "name": "지행재직업전문학교",
+      "legalName": "(주)지행재직업전문학교",
+      "alternateName": [
+        "지행재",
+        "울산 지행재직업전문학교"
+      ],
+      "url": "https://jhj.education",
+      "telephone": "+82-52-267-3172",
+      "faxNumber": "+82-52-267-3171",
+      "email": "jhjedu1@gmail.com",
+      "foundingDate": "2015-10-05",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "지정직업훈련시설",
+        "value": "울산-2015-0001"
+      },
+      "description": "지행재직업전문학교는 고용노동부 지정직업훈련시설(제 울산-2015-0001호)로, 울산광역시 남구 북부순환도로 17에서 산업안전관리·소방 분야 직업능력개발훈련을 운영합니다. 근거 법령은 국민 평생 직업능력 개발법 제28조제1항 및 같은 법 시행규칙 제12조제2항이며, 부산지방고용노동청 울산지청이 2015년 10월 5일 지정했습니다.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "북부순환도로 17 남운프라자 502호",
+        "addressLocality": "남구",
+        "addressRegion": "울산광역시",
+        "postalCode": "44632",
+        "addressCountry": "KR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.5516564,
+        "longitude": 129.2653238
+      },
+      "areaServed": [
+        "울산광역시",
+        "경상남도 양산시",
+        "경상북도 경주시",
+        "부산광역시 기장군",
+        "부산광역시 금정구"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://blog.naver.com/jhjvoc0901",
+        "https://pf.kakao.com/_bnxnAX"
+      ]
+    },
+    {
+      "@type": "EducationalOccupationalProgram",
+      "@id": "https://jihaengjae.github.io/sandaetuk/#program-safety-day",
+      "name": "(산대특) 선임안전관리 실무자 양성 지원과정",
+      "programType": "산업구조변화대응 특화훈련",
+      "description": "산업구조변화대응 등 특화훈련(산대특) 과정입니다. 2026년 2차 3회차이며 훈련기간은 2026년 10월 26일부터 2027년 1월 5일까지 50일, 주간 09:00~16:00로 운영합니다. 실업자를 대상으로 하며 훈련장려금 월 20만원 지급 대상입니다. 훈련비는 1,986,000원이고 수강생 자기부담금은 198,600원입니다.",
+      "inLanguage": "ko",
+      "occupationalCategory": "안전관리자",
+      "educationalCredentialAwarded": "수료증",
+      "timeToComplete": "P50D",
+      "timeRequired": "PT300H",
+      "startDate": "2026-10-26",
+      "endDate": "2027-01-05",
+      "maximumEnrollment": 20,
+      "provider": {
+        "@id": "https://jhj.education/#school"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "국비지원 직업훈련",
+        "priceCurrency": "KRW",
+        "price": "198600",
+        "availability": "https://schema.org/InStock",
+        "description": "훈련비는 국비로 지원되고 수강생은 자기부담금 198,600원만 부담합니다. 울산 남구 고용위기 선제대응지역 요건에 해당하면 2027년 1월 11일까지 면제됩니다."
+      },
+      "hasCourse": {
+        "@type": "Course",
+        "name": "(산대특) 선임안전관리 실무자 양성 지원과정",
+        "description": "산업안전관리 계획수립, 산업안전교육, 사업장 안전점검, 사업장 내 교통안전관리, 시스템 안전공학, 기계사용·전기설비·화학설비·건설현장 안전관리, 산업안전 관련법령",
+        "provider": {
+          "@id": "https://jhj.education/#school"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "courseWorkload": "PT300H",
+          "startDate": "2026-10-26",
+          "endDate": "2027-01-05",
+          "location": {
+            "@type": "Place",
+            "name": "지행재직업전문학교 1강의실",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "북부순환도로 17 남운프라자 502호",
+              "addressLocality": "남구",
+              "addressRegion": "울산광역시",
+              "postalCode": "44632",
+              "addressCountry": "KR"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "EducationalOccupationalProgram",
+      "@id": "https://jihaengjae.github.io/sandaetuk/#program-safety-eve",
+      "name": "(산대특) 선임안전관리 실무자 향상 지원과정",
+      "programType": "산업구조변화대응 특화훈련",
+      "description": "산업구조변화대응 등 특화훈련(산대특) 과정입니다. 2026년 2차 2회차이며 훈련기간은 2026년 10월 6일부터 2027년 1월 21일까지 74일, 야간 19:00~22:00로 운영합니다. 재직자를 대상으로 하며 훈련장려금은 지급되지 않습니다. 훈련비는 1,456,400원이고 수강생 자기부담금은 145,640원입니다.",
+      "inLanguage": "ko",
+      "occupationalCategory": "안전관리자",
+      "educationalCredentialAwarded": "수료증",
+      "timeToComplete": "P74D",
+      "timeRequired": "PT220H",
+      "startDate": "2026-10-06",
+      "endDate": "2027-01-21",
+      "maximumEnrollment": 20,
+      "provider": {
+        "@id": "https://jhj.education/#school"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "국비지원 직업훈련",
+        "priceCurrency": "KRW",
+        "price": "145640",
+        "availability": "https://schema.org/InStock",
+        "description": "훈련비는 국비로 지원되고 수강생은 자기부담금 145,640원만 부담합니다. 울산 남구 고용위기 선제대응지역 요건에 해당하면 2027년 1월 11일까지 면제됩니다."
+      },
+      "hasCourse": {
+        "@type": "Course",
+        "name": "(산대특) 선임안전관리 실무자 향상 지원과정",
+        "description": "산업재해 예방계획 수립, 산업안전교육, 산업안전 문서관리, 산업안전 보호장비관리, 시스템 안전공학, 시스템 위험분석, 산업안전 관련법령",
+        "provider": {
+          "@id": "https://jhj.education/#school"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "courseWorkload": "PT220H",
+          "startDate": "2026-10-06",
+          "endDate": "2027-01-21",
+          "location": {
+            "@type": "Place",
+            "name": "지행재직업전문학교 2강의실",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "북부순환도로 17 남운프라자 502호",
+              "addressLocality": "남구",
+              "addressRegion": "울산광역시",
+              "postalCode": "44632",
+              "addressCountry": "KR"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "EducationalOccupationalProgram",
+      "@id": "https://jihaengjae.github.io/sandaetuk/#program-hazmat",
+      "name": "(산대특) 위험물 안전관리 실무자 양성 지원과정",
+      "programType": "산업구조변화대응 특화훈련",
+      "description": "산업구조변화대응 등 특화훈련(산대특) 과정입니다. 2026년 2차 2회차이며 훈련기간은 2026년 10월 12일부터 11월 20일까지 30일, 주간 09:00~16:00로 운영합니다. 실업자를 대상으로 하며 훈련장려금 월 20만원 지급 대상입니다. 훈련비는 1,153,800원이고 수강생 자기부담금은 115,380원입니다.",
+      "inLanguage": "ko",
+      "occupationalCategory": "위험물안전관리자",
+      "educationalCredentialAwarded": "수료증",
+      "timeToComplete": "P30D",
+      "timeRequired": "PT180H",
+      "startDate": "2026-10-12",
+      "endDate": "2026-11-20",
+      "maximumEnrollment": 20,
+      "provider": {
+        "@id": "https://jhj.education/#school"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "국비지원 직업훈련",
+        "priceCurrency": "KRW",
+        "price": "115380",
+        "availability": "https://schema.org/InStock",
+        "description": "훈련비는 국비로 지원되고 수강생은 자기부담금 115,380원만 부담합니다. 울산 남구 고용위기 선제대응지역 요건에 해당하면 2027년 1월 11일까지 면제됩니다."
+      },
+      "hasCourse": {
+        "@type": "Course",
+        "name": "(산대특) 위험물 안전관리 실무자 양성 지원과정",
+        "description": "제1류부터 제6류까지 위험물 취급, 기초화학, 위험물안전관리법, 화재예방 및 소화방법",
+        "provider": {
+          "@id": "https://jhj.education/#school"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "courseWorkload": "PT180H",
+          "startDate": "2026-10-12",
+          "endDate": "2026-11-20",
+          "location": {
+            "@type": "Place",
+            "name": "지행재직업전문학교 3강의실",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "북부순환도로 17 남운프라자 502호",
+              "addressLocality": "남구",
+              "addressRegion": "울산광역시",
+              "postalCode": "44632",
+              "addressCountry": "KR"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://jihaengjae.github.io/sandaetuk/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "산대특은 무엇의 줄임말인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "산대특은 「산업구조변화대응 등 특화훈련」의 줄임말입니다. 산업구조 변화로 고용조정이 예상되는 산업·직종의 재직자와 실업자에게 직무전환 훈련을 지원하는 고용노동부 사업이며, 훈련비는 국비로 지원되고 수강생은 자기부담금만 냅니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "수료하면 자격증 응시자격이 생기나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "아닙니다. 산업안전기사·산업안전산업기사·위험물산업기사는 학력과 경력에 따른 응시자격이 따로 있고, 훈련 수료가 그 요건을 대신하지 않습니다. 다만 위험물기능사는 응시자격 제한이 없어 누구나 응시할 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "산대특 훈련장려금은 얼마이고 조건은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "훈련장려금은 월 20만원이며, 140시간 이상 과정에서 단위기간 출석률 80% 이상일 때 지급됩니다. 출석률은 시간이 아니라 일수 기준으로 계산하고 지각·조퇴·외출은 3회가 모이면 결석 1일로 처리합니다. 실업급여 수급자와 월 60시간 이상 근로자는 지급 대상이 아니며, 수강 자체는 가능합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "안전 분야 경력이 없어도 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "됩니다. 현장직에서 안전관리로 직무를 옮기는 분과 다른 업종에서 처음 들어오는 분이 상당수입니다. 국민내일배움카드 발급 요건에 해당하면 직무와 무관하게 수강할 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "중도에 그만두면 어떻게 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "국민내일배움카드 한도가 차감됩니다. 수료 이력과 수료증이 남지 않고 마지막 달 훈련장려금도 지급되지 않습니다. 카드는 5년 단위 한도라 다음 훈련에도 영향을 줍니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "수료 후 취업까지 연결해 주나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "울산권 제조·건설·엔지니어링 채용정보를 안내하고 이력서와 면접 준비를 함께 봅니다. 다만 취업을 보장하는 것은 아니며 채용 여부는 기업이 결정합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "국민내일배움카드 발급이 안 되는 경우도 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "있습니다. 공무원, 사립학교 교직원, 75세 이상은 발급 대상이 아닙니다. 자영업자는 사업 기간 1년 미만이거나 연 매출 4억원 이상이면 제외되고, 특수형태근로종사자·프리랜서는 월 소득 500만원 이상이면 제외됩니다. 다른 부처나 지방자치단체에서 교육훈련비를 지원받고 있는 경우도 제외 대상입니다."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "지행재직업전문학교",
+          "item": "https://jhj.education"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "산대특 2026년 2차 모집",
+          "item": "https://jihaengjae.github.io/sandaetuk/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC7Z5NPC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGDFXVSL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ══════ HERO ══════ -->
+<!-- ══════ HERO ══════ -->
+<header class="hero">
+  <span class="tag">산대특 2026년 2차 · 3개 과정 10월 개강</span>
+  <h1>산대특,<br><em>울산에서 10월에 시작합니다</em></h1>
+  <p class="hero-sub">산업안전 300시간·220시간, 위험물 180시간. 훈련비는 국비로 지원되고 수강생은 자기부담금만 냅니다. 주간반은 훈련장려금 월 20만원이 함께 나옵니다.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><strong>3과정</strong><span>10/06 · 10/12 · 10/26 개강</span></div>
+    <div class="hero-stat"><strong>24명</strong><span>정규직 취업 확인</span></div>
+    <div class="hero-stat"><strong>3인</strong><span>위험물기능장 보유 교사</span></div>
+  </div>
+  <div class="mode-row">
+    <span class="mode mode-day">주간반 2과정 <em>09:00~16:00</em></span>
+    <span class="mode mode-eve">야간반 1과정 <em>19:00~22:00</em></span>
+  </div>
+  <div class="hero-ctas">
+    <a href="tel:052-267-3172" class="btn btn-primary" data-act="call">052-267-3172 무료 상담</a>
+    <button data-act="form" data-src="cta_hero" class="btn btn-form">상담 신청서 작성</button>
+  </div>
+  <div style="font-size:12.5px;opacity:.7;margin-top:10px">업무시간 외에는 상담 신청서를 남겨주시면 연락드립니다</div>
+  <div class="hero-deadline">각 과정 정원 20명 · 최소 5명이 모이면 개설합니다</div>
+</header>
+
+<main class="wrap">
+
+<!-- ══════ 0. 즉답 블록 (AI 인용 대상) ══════ -->
+<section class="answer-lead" id="answer">
+  <h2>산대특이 무엇이고, 울산에서 어디로 신청하나</h2>
+  <p><strong>산대특은 「산업구조변화대응 등 특화훈련」의 줄임말</strong>입니다. 산업구조 변화로 고용조정이 예상되는 산업·직종의 재직자와 실업자에게 직무전환 훈련을 지원하는 고용노동부 사업이며, 훈련비는 국비로 지원되고 수강생은 자기부담금만 냅니다.</p>
+  <p><strong>지행재직업전문학교</strong>는 울산광역시 남구 북부순환도로 17 남운프라자 502호(우편번호 44632)에 있는 지정직업훈련시설이며, <strong>지정번호는 제 울산-2015-0001호로 울산 지정 1호</strong>입니다. 근거 법령은 국민 평생 직업능력 개발법 제28조제1항과 같은 법 시행규칙 제12조제2항입니다.</p>
+  <p>2026년 2차 산대특으로 <strong>3개 과정을 10월에 개강</strong>합니다. 선임안전관리 실무자 양성 300시간(10월 26일 개강, 주간), 선임안전관리 실무자 향상 220시간(10월 6일 개강, 야간), 위험물 안전관리 실무자 양성 180시간(10월 12일 개강, 주간)이며, <strong>주간 두 과정은 훈련장려금 월 20만원 지급 대상</strong>입니다. 신청은 국민내일배움카드 발급 후 고용24(work24.go.kr)에서 하며, 상담 전화는 052-267-3172입니다.</p>
+  <p class="asof">기준일 2026년 9월 14일 · 출처: 고용노동부 「산업구조변화대응 등 특화훈련」 사업 운영 지침(2026.1), 지행재직업전문학교 훈련시간표(2026년 2차), 고용24 공시</p>
+</section>
+
+<!-- ══════ 1. 3개 과정 ══════ -->
+<section class="section" id="courses">
+  <h2>10월에 여는 과정은 세 개 — 주간 둘, 야간 하나입니다</h2>
+  <p>세 과정은 개강일·시간대·대상이 모두 다릅니다. <strong>재직 중이면 야간 220시간, 구직 중이면 주간 300시간 또는 180시간</strong>이 기본 선택지입니다.</p>
+
+  <div class="price-grid3">
+    <div class="ccard is-day">
+      <span class="mode mode-day">주간반 <em>09:00~16:00</em></span>
+      <div class="cc-t">선임안전관리 실무자 양성</div>
+      <div class="cc-s">300시간 · 50일 · 주간반 · 2026년 2차 3회차</div>
+      <div class="cc-d">10월 26일</div>
+      <div class="cc-dd">~ 2027년 1월 5일</div>
+      <ul>
+        <li><b>시간</b> 09:00~16:00 (월~금)</li>
+        <li><b>대상</b> 실업자·구직자</li>
+        <li><b>훈련장려금</b> 월 20만원</li>
+        <li><b>교사</b> 배희연 학교장</li>
+      </ul>
+    </div>
+    <div class="ccard is-eve">
+      <span class="mode mode-eve">야간반 <em>19:00~22:00</em></span>
+      <div class="cc-t">선임안전관리 실무자 향상</div>
+      <div class="cc-s">220시간 · 74일 · 야간반 · 2026년 2차 2회차</div>
+      <div class="cc-d">10월 6일</div>
+      <div class="cc-dd">~ 2027년 1월 21일</div>
+      <ul>
+        <li><b>시간</b> 19:00~22:00 (월~금)</li>
+        <li><b>대상</b> 재직자</li>
+        <li><b>훈련장려금</b> 해당 없음</li>
+        <li><b>교사</b> 박도원 수석교사</li>
+      </ul>
+    </div>
+    <div class="ccard is-day">
+      <span class="mode mode-day">주간반 <em>09:00~16:00</em></span>
+      <div class="cc-t">위험물 안전관리 실무자 양성</div>
+      <div class="cc-s">180시간 · 30일 · 주간반 · 2026년 2차 2회차</div>
+      <div class="cc-d">10월 12일</div>
+      <div class="cc-dd">~ 2026년 11월 20일</div>
+      <ul>
+        <li><b>시간</b> 09:00~16:00 (월~금)</li>
+        <li><b>대상</b> 실업자·구직자</li>
+        <li><b>훈련장려금</b> 월 20만원</li>
+        <li><b>교사</b> 이장표 교사</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">※ 훈련시간표(2026년 2차) 기준. 담당 교사는 개강 시 확정되며 과정마다 주교사 2인이 배정되어 회차 중 공백 없이 운영됩니다.<br>※ 각 과정 정원 20명, 최소 5명이 모이면 개설합니다. <span class="seat" data-seat>잔여석은 상담에서 확인해 드립니다.</span></p>
+</section>
+
+<!-- ══════ 2. 결과 선언 ══════ -->
+<section class="section" id="result">
+  <h2>이 과정은 응시자격을 만들어주지 않습니다</h2>
+  <p>먼저 분명히 해두겠습니다. <strong>산업안전기사·산업안전산업기사·위험물산업기사는 학력과 경력에 따른 응시자격이 따로 있고, 훈련 수료가 그 요건을 대신하지 않습니다.</strong></p>
+  <p>이 과정이 하는 일은 다릅니다. 혼자 준비하면 수개월이 걸리는 범위를 <strong>교사가 짚어주는 구조로 압축</strong>하고, 그 시간에 훈련비 지원과 훈련장려금이 붙습니다. 승인 문서에 적힌 과정 목표도 "시험에 응시해 합격함으로써 선임 안전관리자 분야로 직무전환·이직"입니다(승인 문서 원문 표기).</p>
+  <div class="paths">
+    <div class="path"><b>응시자격이 이미 있는 분</b> — 시험 준비를 국비로 합니다. 교재값과 학원비 대신 훈련비 지원을 받습니다.</div>
+    <div class="path"><b>안전 분야가 처음인 분</b> — <b>위험물기능사는 응시자격 제한이 없습니다.</b> 학력·경력과 무관하게 지금 바로 시작할 수 있습니다.</div>
+    <div class="path"><b>응시자격이 애매한 분</b> — 학점·경력 인정 기준이 자격마다 다릅니다. <b>아래 자가진단</b>으로 먼저 확인하시고, 애매하면 전화 주십시오.</div>
+  </div>
+
+  <h3>내 응시자격, 30초면 확인됩니다</h3>
+  <p>학력·전공·경력 <strong>직무분야</strong>·학점을 넣으면 산업안전·위험물·소방설비 6개 등급의 응시자격을 한 번에 판정합니다. 경력은 년수보다 <strong>어느 분야였는지</strong>가 먼저입니다 — 산업안전·소방설비(25.안전관리)와 위험물(18.화학)은 인정 범위가 다릅니다. <strong>군 복무 경력도 특기별로 반영</strong>합니다.</p>
+  <div class="eligibox">
+    <div class="elig-h">안전 3종 응시자격 자가진단</div>
+    <div class="elig-d">산업안전 · 위험물 · 소방설비 <strong>6개 등급</strong>을 한 번에 판정합니다</div>
+    <button data-act="elig" class="btn btn-elig">자가진단 시작하기</button>
+    <div class="elig-n">가입·로그인 없이 바로 이용 · 약 30초</div>
+  </div>
+  <p class="note">※ 근거: 국가기술자격법 시행규칙 [별표 11의2] 유사 직무분야. 군 특기 경력은 한국산업인력공단 「국가기술자격검정 직무분야별 특기 경력인정 범위」(육군 2026.02 · 해군 2025.02.18 · 공군 2025.02.17 · 해병대 2022.08)를 따르며 기초군사훈련 기간은 제외합니다. 관련학과 인정은 학과 명칭이 아니라 이수 교육과정 기준이며 종목마다 지정 학과가 다릅니다. 최종 확인은 큐넷 응시자격 자가진단 또는 학교 상담을 이용하십시오.</p>
+
+  <div class="mid-cta" style="margin:26px 0">
+    <p>판정 결과가 애매하거나 경력 인정 여부가 헷갈리면?</p>
+    <div class="cta-dual">
+      <a href="tel:052-267-3172" class="btn btn-primary" data-act="call">전화로 확인받기</a>
+      <button data-act="form" data-src="cta_eligibility" class="btn btn-form-o">상담 신청서 작성</button>
+    </div>
+  </div>
+
+  <div class="instant">
+    <strong>직무전환·신규 진입도 많습니다 —</strong> 현장직에서 안전관리로 옮기시는 분, 다른 업종에서 안전 분야로 처음 들어오시는 분이 상당수입니다. 안전 직무 재직자만 듣는 과정이 아닙니다.
+  </div>
+</section>
+
+<!-- ══════ 3. 왜 지금인가 ══════ -->
+<section class="section" id="why">
+  <h2>안전관리 수요는 경기가 아니라 법이 만듭니다</h2>
+  <p><strong>중대재해처벌법이 2024년 1월 27일부터 상시근로자 5인 이상 모든 사업장에 적용</strong>되면서, 안전관리 인력 수요가 유행이 아니라 법으로 만들어졌습니다.</p>
+  <p>울산은 그 수요가 특히 큰 지역입니다. 석유화학·조선·완성차가 밀집해 있고, 위험물 취급 사업장이 많아 위험물 안전관리자 선임 수요도 함께 발생합니다. 다른 지역에서 자격을 따서 울산으로 오는 것이 아니라, <strong>수요가 있는 곳에서 배우고 그 자리에서 지원하는 구조</strong>입니다.</p>
+</section>
+
+<!-- ══════ 4. 가격 ══════ -->
+<section class="section" id="price">
+  <h2>얼마를 내고, 얼마를 받나</h2>
+  <p><strong>산대특 자기부담금은 훈련비 300만원 이하 구간에서 훈련비의 10%</strong>이고, 그 위로는 구간별 정액(300만~600만원 30만원, 600만~1,200만원 40만원)입니다. 세 과정 모두 300만원 이하 구간에 해당합니다.</p>
+
+  <div class="price-grid3">
+    <div class="price-card">
+      <h4>선임안전관리 양성<br><span style="font-weight:700;color:#0A5C3B;font-size:13px">300시간 · 주간반 09:00~16:00</span></h4>
+      <div class="price-row"><span>훈련비</span><span>1,986,000원</span></div>
+      <div class="price-row"><span>국비 지원</span><span>1,787,400원</span></div>
+      <div class="price-row"><span>훈련장려금</span><span>월 20만원</span></div>
+      <div class="price-big">198,600원</div>
+      <div class="price-zero">울산 남구 요건 해당 시 <span class="strike">198,600원</span> → 0원</div>
+    </div>
+    <div class="price-card">
+      <h4>선임안전관리 향상<br><span style="font-weight:700;color:#B57200;font-size:13px">220시간 · 야간반 19:00~22:00</span></h4>
+      <div class="price-row"><span>훈련비</span><span>1,456,400원</span></div>
+      <div class="price-row"><span>국비 지원</span><span>1,310,760원</span></div>
+      <div class="price-row"><span>훈련장려금</span><span>해당 없음</span></div>
+      <div class="price-big">145,640원</div>
+      <div class="price-zero">울산 남구 요건 해당 시 <span class="strike">145,640원</span> → 0원</div>
+    </div>
+    <div class="price-card">
+      <h4>위험물 안전관리 양성<br><span style="font-weight:700;color:#0A5C3B;font-size:13px">180시간 · 주간반 09:00~16:00</span></h4>
+      <div class="price-row"><span>훈련비</span><span>1,153,800원</span></div>
+      <div class="price-row"><span>국비 지원</span><span>1,038,420원</span></div>
+      <div class="price-row"><span>훈련장려금</span><span>월 20만원</span></div>
+      <div class="price-big">115,380원</div>
+      <div class="price-zero">울산 남구 요건 해당 시 <span class="strike">115,380원</span> → 0원</div>
+    </div>
+  </div>
+
+  <div class="instant">
+    <strong>주간반은 첫 달에 이미 넘어섭니다 —</strong> 위험물 180시간은 자기부담금 115,380원, 선임안전관리 양성 300시간은 198,600원인데 훈련장려금이 월 20만원입니다. 두 과정 모두 첫 달 장려금 하나로 자기부담금을 넘깁니다. 내면서 배우는 것이 아니라 받으면서 배우는 구조입니다.
+  </div>
+
+  <h3>훈련장려금은 조건이 있습니다</h3>
+  <p><strong>훈련장려금 월 20만원은 140시간 이상 과정에서 단위기간 출석률 80% 이상일 때 지급</strong>됩니다. 출석률은 시간이 아니라 <strong>일수 기준</strong>으로 계산하며, 지각·조퇴·외출은 3회가 모이면 결석 1일로 처리됩니다.</p>
+  <p>아래에 해당하면 훈련장려금은 지급되지 않습니다. 수강 자체는 가능합니다.</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>구분</th><th>수강</th><th>훈련장려금</th></tr></thead>
+      <tbody>
+        <tr><td>구직 중 (실업급여 미수급)</td><td>가능</td><td>월 20만원</td></tr>
+        <tr><td>실업급여 수급 중</td><td>가능</td><td>지급 안 됨 (이중수급)</td></tr>
+        <tr><td>월 60시간 이상 근로 중</td><td>가능</td><td>지급 안 됨</td></tr>
+        <tr class="hl-row"><td>야간반(220시간) 수강</td><td>가능</td><td>해당 없음</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>울산 남구 자기부담금 면제</h3>
+  <p>울산 남구는 <strong>고용위기 선제대응지역</strong>으로 지정되어, 요건에 해당하면 <strong>2027년 1월 11일까지 자기부담금이 면제</strong>됩니다. 남구 소재 사업장에 재직 중이거나 남구에 3개월 이상 거주하신 경우가 해당됩니다. 남구 밖에 사셔도 남구로 출근하시면 대상이 될 수 있습니다.</p>
+  <p class="note">※ 기간이 정해진 한시 조치이며, 종료되면 구간표대로 자기부담금이 다시 적용됩니다. 해당 여부가 애매하면 상담에서 확인해 드립니다.<br>※ 자료: 고용노동부 「산업구조변화대응 등 특화훈련」 사업 운영 지침(2026.1), 고용위기 선제대응지역 지정 공문</p>
+</section>
+
+<!-- ══════ 중간 CTA ══════ -->
+<div class="mid-cta">
+  <p>내 응시자격이 되는지, 자기부담금 면제 대상인지 확인하려면?</p>
+  <div class="cta-dual">
+    <a href="tel:052-267-3172" class="btn btn-primary" data-act="call">전화로 5분 상담받기</a>
+    <button data-act="form" data-src="cta_mid" class="btn btn-form-o">상담 신청서 작성</button>
+  </div>
+</div>
+
+<!-- ══════ 5. 장벽 제거 ══════ -->
+<section class="section" id="barrier">
+  <h2>이래도 되나 싶은 것들</h2>
+  <p>상담에서 가장 많이 받는 질문들입니다. 대부분은 장벽이 아닙니다.</p>
+  <div class="bl">
+    <div class="bi"><div class="bi-q">카드가 없는데요</div><div class="bi-a"><b>상담에서 같이 진행합니다.</b> 국민내일배움카드는 고용24 온라인 신청 또는 울산고용센터 방문으로 발급하며 평균 7일 걸립니다. 절차를 안내해 드립니다.</div></div>
+    <div class="bi"><div class="bi-q">울산이 아닌데요</div><div class="bi-a"><b>거주지 요건은 없습니다.</b> 주소지와 무관하게 출석이 가능하면 수강할 수 있습니다. 실제로 창원에서 통학해 수료한 수강생이 있습니다.</div></div>
+    <div class="bi"><div class="bi-q">재직 중인데요</div><div class="bi-a"><b>야간반이 있습니다.</b> 선임안전관리 향상 220시간, 19:00~22:00, 주 5일. 안전 직무가 아니어도 됩니다 — 제조·건설·현장 어느 분야든 국민내일배움카드 발급 요건에 해당하면 수강할 수 있습니다.</div></div>
+    <div class="bi"><div class="bi-q">공부를 놓은 지 오래됐는데요</div><div class="bi-a"><b>시작하고 일주일이 고비입니다.</b> 학생보다 직장인이 책상에 앉아 있는 것 자체를 힘들어하고, 계산·암기 문제에서 막힙니다. 다만 그 구간을 넘기면 끝까지 갑니다. 위험물 과정은 1일차부터 3일차의 물질 물리화학적 성질이 가장 어렵다는 것이 교사들의 공통된 관찰입니다.</div></div>
+    <div class="bi"><div class="bi-q">나이가 많은데요</div><div class="bi-a"><b>취업이 확인된 수료생 중 50~60대가 9명입니다.</b> 카드 발급 제외 연령은 75세 이상이라 60대 후반까지 문제없습니다.</div></div>
+    <div class="bi"><div class="bi-q">전공자가 아닌데요</div><div class="bi-a"><b>위험물기능사는 응시자격 제한이 없습니다.</b> 취업 확인 인원 중 20~30대가 19명으로, 신규 진입 사례가 가장 많은 구간입니다.</div></div>
+    <div class="bi"><div class="bi-q">실업급여를 받는 중인데요</div><div class="bi-a"><b>수강은 가능합니다.</b> 훈련장려금만 제외됩니다. 훈련시간이 30시간 이상이면 구직활동 2회로 인정되어 실업인정 부담이 줄어듭니다.</div></div>
+    <div class="bi"><div class="bi-q">가게를 정리하려는데요</div><div class="bi-a"><b>폐업 전에도 가능합니다.</b> 영업 중인 자영업자도 카드를 발급받을 수 있습니다. 다만 사업 기간 1년 미만이거나 연 매출 4억원 이상이면 발급 제외 대상입니다.</div></div>
+  </div>
+
+  <h3>어디로 오면 되나</h3>
+  <p><strong>(44632) 울산광역시 남구 북부순환도로 17, 남운프라자 502호(무거동).</strong> 신복로터리에서 도보 3분, 울산대학교 인근이며 시내버스 접근이 쉽습니다. 주차 가능하고 수강생 할인이 됩니다. 주간반은 09:00 시작·16:00 종료라 출퇴근 정체 시간대를 피합니다.</p>
+  <p class="note">※ 원거리에서 통학하실 계획이라면 편도 시간을 먼저 계산해 보십시오. 결석이 이틀 정도 이어지면 진도를 따라가기 어려워 중도포기로 이어지는 경우가 많습니다. 단위기간 출석률이 80% 미만이면 훈련장려금이 지급되지 않고, 중도포기 시 카드 한도가 차감됩니다.</p>
+</section>
+
+<!-- ══════ 6. 증거 ══════ -->
+<section class="section" id="proof">
+  <h2>수료생은 어디로 갔나</h2>
+  <p>지행재직업전문학교 산대특 과정 수료생 중 취업이 확인된 인원의 취업처와 채용 형태입니다. 학교가 홍보용으로 만든 숫자가 아니라 <strong>고용노동부 보고용으로 집계한 자료</strong>입니다.</p>
+
+  <div class="jobstat">
+    <div class="js"><strong>32명</strong><span>취업 확인 인원</span></div>
+    <div class="js"><strong>24명</strong><span>정규직 (약 75%)</span></div>
+    <div class="js"><strong>9명</strong><span>50~60대 (약 28%)</span></div>
+  </div>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>주요 취업처</th><th>확인 인원</th></tr></thead>
+      <tbody>
+        <tr class="hl-row"><td>울산권 완성차 대기업</td><td>7명</td></tr>
+        <tr><td>울산권 조선·중공업 대기업</td><td>3명</td></tr>
+        <tr><td>가스·식품·석유화학·보험 대기업</td><td>각 1명</td></tr>
+        <tr><td>그 외 지역 제조 · 건설 · 엔지니어링</td><td>다수</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">※ 훈련기간 2024.10~2025.12 과정 기준, 고용노동부 보고용 집계.<br>※ <strong>취업이 확인된 인원 기준이며, 전체 수료생 대비 취업률이 아닙니다.</strong><br>※ 취업 현황은 고용노동부 보고 시점에 맞춰 갱신되며, 최근 수료생의 취업 결과는 집계에 시차가 있습니다.</p>
+
+  <div class="capgrid">
+    <figure class="cap" data-zoom="hrd_rate_school.png">
+      <img src="hrd_rate_school.png" alt="고용24 공시 — 지행재직업전문학교 평균 취업률·만족도" loading="lazy">
+      <figcaption>지행재 실시과정 평균 vs 소재지역 평균<span class="cap-z">확대</span></figcaption>
+    </figure>
+    <figure class="cap" data-zoom="hrd_rate_ncs.png">
+      <img src="hrd_rate_ncs.png" alt="고용24 공시 — NCS직종(산업안전관리) 취업률·만족도" loading="lazy">
+      <figcaption>NCS직종(산업안전관리) 직종평균 vs 훈련기관평균<span class="cap-z">확대</span></figcaption>
+    </figure>
+  </div>
+  <p class="note">※ 왼쪽은 지행재직업전문학교 실시과정 평균과 소재지역(울산) 평균의 비교입니다. 오른쪽은 NCS 소분류 산업안전관리 직종의 <strong>직종 평균과 훈련기관 평균</strong> 비교로, 지행재 단독 수치가 아닙니다.</p>
+
+  <h3>누가 가르치나</h3>
+  <div class="tcard">
+    <div class="tcard-h">선임안전관리 실무자 양성 300시간 · 향상 220시간</div>
+    <div class="t">
+      <div class="t-name">배희연 <em>학교장</em></div>
+      <div class="t-line">조선·중공업 현장 안전 40년 · 조선해양플랜트 협력사 기술지도 3년</div>
+      <div class="t-cert">산업안전기사 · 산업안전산업기사</div>
+    </div>
+    <div class="t">
+      <div class="t-name">박도원 <em>수석교사</em></div>
+      <div class="t-line">석유화학 제조현장 20년 · 섬유·아웃도어 제조현장 13년</div>
+      <div class="t-cert">산업안전기사 · 위험물산업기사 · 인간공학기사</div>
+    </div>
+  </div>
+  <div class="tcard">
+    <div class="tcard-h">위험물 안전관리 실무자 양성 180시간</div>
+    <div class="t">
+      <div class="t-name">이장표 <em>교사</em></div>
+      <div class="t-line">대한민국 육군 군수참모처 위험물관리 32년</div>
+      <div class="t-cert">위험물기능장 · 위험물산업기사</div>
+    </div>
+    <div class="t">
+      <div class="t-name">김춘근 <em>교사</em></div>
+      <div class="t-line">화학공장 20년 · 엔지니어링 3년</div>
+      <div class="t-cert">위험물기능장 · 산업안전기사 · 소방설비기사(전기·기계) 외 3종</div>
+    </div>
+  </div>
+  <p class="note">과정마다 주교사 2인이 배정되어 회차 중 공백 없이 운영됩니다. 담당 교사는 개강 시 확정됩니다.</p>
+
+  <details>
+    <summary>안전 3종 교사진 전체 보기</summary>
+    <div class="det-body">
+      울산에서 산업안전·위험물·소방설비 세 분야를 함께 운영하는 직업전문학교입니다. 교사 5인이 보유한 국가기술자격을 분야별로 정리하면 다음과 같습니다.<br><br>
+      · <b>위험물기능장 3인</b> — 이장표 · 김춘근 · 이재옥<br>
+      · <b>산업안전기사 4인</b> — 배희연 · 박도원 · 김춘근 · 이재옥<br>
+      · <b>소방설비기사 2인</b> — 김춘근(전기·기계) · 이재옥(전기)<br><br>
+      <b>이재옥 교사</b> · 조선소 안전보건부 차장 22년(안전지도과 팀장, 현장 안전지도 팀리더, 소방·위험물 안전관리자, 노동부·안전보건공단·소방서 대관 업무 담당) / 위험물기능장 · 소방설비기사(전기) · 산업안전기사 · 가스산업기사 · 전기기능사 · 가스기능사 · 위험물기능사
+    </div>
+  </details>
+
+  <h3>수강생 평가</h3>
+  <div class="score-panel">
+    <div class="score-big">5<span>/5</span></div>
+    <div class="score-sub">고용24 공시 평균 만족도 · 학교 집계가 아니라 수강생이 국가 시스템에 직접 등록한 값</div>
+    <div class="score-grid">
+      <div class="score-item"><strong>5.0</strong><span>취업가능성</span></div>
+      <div class="score-item"><strong>5.0</strong><span>실무연계성</span></div>
+      <div class="score-item"><strong>5.0</strong><span>능력향상</span></div>
+      <div class="score-item"><strong>5.0</strong><span>교강사</span></div>
+      <div class="score-item"><strong>5.0</strong><span>수강가치</span></div>
+      <div class="score-item"><strong>4.9</strong><span>목표달성</span></div>
+    </div>
+    <div class="score-note">총 수강 33명 중 20명이 평가에 참여(참여율 60.6%)했고, <strong>20명 전원이 이 강의를 추천</strong>했습니다. 등록된 수강후기는 14건입니다.</div>
+  </div>
+
+  <div class="capgrid">
+    <figure class="cap" data-zoom="hrd_score.png">
+      <img src="hrd_score.png" alt="고용24 공시 — (산대특) 산업안전 및 위험물 실무자 양성과정 훈련성과 점수표" loading="lazy">
+      <figcaption>고용24 공시 훈련성과 — 항목별 점수<span class="cap-z">확대</span></figcaption>
+    </figure>
+    <figure class="cap" data-zoom="hrd_reviews.png">
+      <img src="hrd_reviews.png" alt="고용24 등록 수강후기 목록" loading="lazy">
+      <figcaption>고용24 등록 수강후기<span class="cap-z">확대</span></figcaption>
+    </figure>
+  </div>
+  <div class="proof">
+    <p class="proof-quote">"산업안전과 위험물을 전혀 모르는 상태로 시작했는데, 강사님이 알기 쉽게 설명해주셔서 생소한 개념들을 더욱 빠르고 정확하게 습득할 수 있었습니다."</p>
+    <p class="proof-name">— 고용24 등록 수강후기</p>
+  </div>
+  <div class="proof">
+    <p class="proof-quote">"이론에 현장 사례를 붙여 설명해 흡수가 빨랐고, 울산이라는 공업도시 특성에 맞는 과정이었습니다."</p>
+    <p class="proof-name">— 고용24 등록 수강후기</p>
+  </div>
+  <p class="note">※ 자료: 고용24 훈련과정 정보 — (산대특) 산업현장 산업안전 및 위험물 관리실무자 지원과정 훈련성과</p>
+</section>
+
+<!-- ══════ 7. 세 과정 비교 ══════ -->
+<section class="section" id="compare">
+  <h2>세 과정 중 어느 쪽인가</h2>
+  <p>고르는 기준은 세 가지입니다. <strong>지금 재직 중인지, 훈련장려금이 필요한지, 몇 개월을 낼 수 있는지</strong>.</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>구분</th><th>선임안전관리 양성<br><span style="font-size:11.5px;font-weight:600;color:#9FE0C0">주간반</span></th><th>선임안전관리 향상<br><span style="font-size:11.5px;font-weight:600;color:#FFD98A">야간반</span></th><th>위험물 안전관리 양성<br><span style="font-size:11.5px;font-weight:600;color:#9FE0C0">주간반</span></th></tr></thead>
+      <tbody>
+        <tr><td>대상</td><td>실업자<span class="badge badge-g">주간반</span></td><td>재직자<span class="badge badge-o">야간반</span></td><td>실업자<span class="badge badge-g">주간반</span></td></tr>
+        <tr class="hl-row"><td>시간</td><td>09:00 ~ 16:00</td><td>19:00 ~ 22:00</td><td>09:00 ~ 16:00</td></tr>
+        <tr><td>요일</td><td>월~금</td><td>월~금</td><td>월~금</td></tr>
+        <tr><td>훈련시간</td><td>300시간 · 50일</td><td>220시간 · 74일</td><td>180시간 · 30일</td></tr>
+        <tr><td>총 기간</td><td>약 10주</td><td>약 15주</td><td>약 6주</td></tr>
+        <tr><td>개강일</td><td>10월 26일</td><td>10월 6일</td><td>10월 12일</td></tr>
+        <tr><td>종료일</td><td>2027년 1월 5일</td><td>2027년 1월 21일</td><td>2026년 11월 20일</td></tr>
+        <tr><td>정원 / 최소개설</td><td>20명 / 5명</td><td>20명 / 5명</td><td>20명 / 5명</td></tr>
+        <tr><td>훈련장려금</td><td>월 20만원</td><td>해당 없음</td><td>월 20만원</td></tr>
+        <tr><td>자기부담금</td><td>198,600원</td><td>145,640원</td><td>115,380원</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="instant">
+    <strong>야간반은 약 15주입니다 —</strong> 주 5일 저녁 19시부터 22시까지, 74일간 이어집니다. 짧지 않은 기간입니다. 중도포기하면 카드 한도가 차감되므로, 끝까지 나올 수 있는 일정인지 먼저 확인하고 신청하시는 편이 낫습니다. <strong>가장 짧은 선택지는 위험물 180시간(약 6주)</strong>입니다.
+  </div>
+</section>
+
+<!-- ══════ 8. 신청 절차 ══════ -->
+<section class="section" id="apply">
+  <h2>신청은 4단계입니다</h2>
+  <div class="step">
+    <span class="sn">1</span><strong>상담 전화</strong>
+    <p><a href="tel:052-267-3172" data-act="call">052-267-3172</a> — 응시자격, 장려금 해당 여부, 자기부담금 면제 대상인지 확인해 드립니다. 통화가 어려우시면 <a href="javascript:void(0)" data-act="form" data-src="cta_step">상담 신청서</a>를 남겨주셔도 됩니다.</p>
+  </div>
+  <div class="step">
+    <span class="sn">2</span><strong>국민내일배움카드 발급</strong>
+    <p>고용24 온라인 신청 또는 울산고용센터 방문. 평균 7일 소요됩니다.</p>
+  </div>
+  <div class="step active">
+    <span class="sn">3</span><strong>훈련 진단·상담 (필수)</strong>
+    <p>140시간 이상 장기 과정은 수강신청 전 훈련 진단·상담이 반드시 필요합니다. <strong>세 과정 모두 해당</strong>되며, 이 단계를 빠뜨려 개강 직전에 막히는 분이 많습니다.</p>
+  </div>
+  <div class="step">
+    <span class="sn">4</span><strong>고용24 수강 신청</strong>
+    <p>고용24(work24.go.kr)에서 "지행재직업전문학교"를 검색해 과정을 신청합니다. 준비물은 신분증과 본인 명의 계좌번호입니다.</p>
+  </div>
+  <div class="instant">
+    <strong>가장 이른 개강은 10월 6일입니다 —</strong> 카드가 없으시면 발급 7일과 훈련 진단·상담 일정까지 고려해야 하므로, 야간반을 생각하신다면 지금 시작하셔야 합니다.
+  </div>
+</section>
+
+<!-- ══════ 9. FAQ ══════ -->
+<section class="section" id="faq">
+  <h2>자주 묻는 질문</h2>
+  <div class="faq">
+    <div class="faq-q">Q. 산대특은 무엇의 줄임말인가요?</div>
+    <div class="faq-a"><b>산대특은 「산업구조변화대응 등 특화훈련」의 줄임말입니다.</b> 산업구조 변화로 고용조정이 예상되는 산업·직종의 재직자와 실업자에게 직무전환 훈련을 지원하는 고용노동부 사업이며, 훈련비는 국비로 지원되고 수강생은 자기부담금만 냅니다.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Q. 수료하면 자격증 응시자격이 생기나요?</div>
+    <div class="faq-a"><b>아닙니다.</b> 산업안전기사·산업안전산업기사·위험물산업기사는 학력과 경력에 따른 응시자격이 따로 있고, 훈련 수료가 그 요건을 대신하지 않습니다. 다만 <b>위험물기능사는 응시자격 제한이 없어</b> 누구나 응시할 수 있습니다. 본인 응시자격이 되는지는 <a href="javascript:void(0)" data-act="elig">응시자격 자가진단</a>으로 먼저 확인하시고, 애매하면 전화로 확인해 드립니다.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Q. 산대특 훈련장려금은 얼마이고 조건은 무엇인가요?</div>
+    <div class="faq-a"><b>훈련장려금은 월 20만원이며, 140시간 이상 과정에서 단위기간 출석률 80% 이상일 때 지급됩니다.</b> 출석률은 시간이 아니라 일수 기준으로 계산하고 지각·조퇴·외출은 3회가 모이면 결석 1일로 처리합니다. 실업급여 수급자와 월 60시간 이상 근로자는 지급 대상이 아니며, 수강 자체는 가능합니다.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Q. 안전 분야 경력이 없어도 되나요?</div>
+    <div class="faq-a"><b>됩니다.</b> 현장직에서 안전관리로 직무를 옮기는 분과 다른 업종에서 처음 들어오는 분이 상당수입니다. 국민내일배움카드 발급 요건에 해당하면 직무와 무관하게 수강할 수 있습니다.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Q. 중도에 그만두면 어떻게 되나요?</div>
+    <div class="faq-a"><b>국민내일배움카드 한도가 차감됩니다.</b> 수료 이력과 수료증이 남지 않고 마지막 달 훈련장려금도 지급되지 않습니다. 카드는 5년 단위 한도라 다음 훈련에도 영향을 줍니다. 일정을 먼저 확인하고 신청하시는 편이 낫습니다.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Q. 수료 후 취업까지 연결해 주나요?</div>
+    <div class="faq-a"><b>울산권 제조·건설·엔지니어링 채용정보를 안내하고 이력서·면접 준비를 함께 봅니다.</b> 다만 취업을 보장하는 것은 아니며 채용 여부는 기업이 결정합니다.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Q. 국민내일배움카드 발급이 안 되는 경우도 있나요?</div>
+    <div class="faq-a"><b>있습니다.</b> 공무원·사립학교 교직원·75세 이상은 발급 대상이 아닙니다. 자영업자는 사업 기간 1년 미만이거나 연 매출 4억원 이상이면 제외되고, 특수형태근로종사자·프리랜서는 월 소득 500만원 이상이면 제외됩니다. 다른 부처·지자체에서 교육훈련비를 지원받고 있는 경우도 제외 대상입니다.</div>
+  </div>
+</section>
+
+<!-- ══════ BOTTOM CTA ══════ -->
+<div class="cta-block">
+  <span class="cta-urgency" data-seat>각 과정 정원 20명 · 최소 5명이면 개설</span>
+  <h2>먼저 전화로 확인하세요</h2>
+  <p>응시자격이 되는지, 자기부담금 면제 대상인지,<br>세 과정 중 어느 쪽이 맞는지 5분이면 정리됩니다.</p>
+  <div class="cta-dual">
+    <a href="tel:052-267-3172" class="btn btn-primary" data-act="call">052-267-3172 전화 상담</a>
+    <button data-act="form" data-src="cta_bottom" class="btn btn-form">상담 신청서 작성</button>
+  </div>
+  <p class="cta-note">전화는 평일 09:00~18:00에 연결됩니다. 야간·주말에는 신청서를 남겨주십시오.</p>
+</div>
+
+<div class="footer">
+  <p>지행재직업전문학교 — (44632) 울산광역시 남구 북부순환도로 17, 남운프라자 502호(무거동)</p>
+  <p>지정직업훈련시설 지정번호 제 울산-2015-0001호 — 국민 평생 직업능력 개발법 제28조제1항·같은 법 시행규칙 제12조제2항</p>
+  <p>대표 배희연 — 사업자번호 532-81-00151 — Tel 052-267-3172 — Fax 052-267-3171 — jhjedu1@gmail.com</p>
+  <p style="margin-top:8px;color:#aaa">본 콘텐츠는 교육 안내 목적이며, 정확한 수강료·일정·자격 요건은 학교 및 고용센터에 직접 문의 바랍니다. 기준일 2026년 9월 14일.</p>
+</div>
+</main>
+
+<a href="https://pf.kakao.com/_bnxnAX" target="_blank" class="kakao-float" title="카카오채널 추가">
+  <span class="kakao-badge">Ch</span>
+  카카오채널 추가
+</a>
+
+<script>
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const f=q.parentElement,o=f.classList.contains('open');
+    document.querySelectorAll('.faq').forEach(i=>i.classList.remove('open'));
+    if(!o)f.classList.add('open');
+  });
+});
+</script>
+
+<!-- ===== 이미지 확대 ===== -->
+<div id="zoom-overlay">
+  <button class="zoom-close" data-act="zoom-close" aria-label="닫기">&#10005;</button>
+  <img id="zoom-img" src="" alt="확대 이미지">
+</div>
+
+<!-- ===== 응시자격 자가진단 (인라인 내장 · 별도 파일 불필요) ===== -->
+<script type="text/html" id="elig-src">
+<!DOCTYPE html>
+<!-- 지행재직업전문학교 홈페이지 · site v1.0.1 · 2026-08-14 -->
+<!--
+  ============================================================
+   안전 3종 응시자격 자가진단 v2 (산업안전·위험물·소방설비 / 6개 등급)
+   © 2026 지행재직업전문학교 (https://www.jhj.education)
+   울산 남구 북부순환도로 17 · 052-267-3172
+
+   무단 복제·배포·2차적 저작물 작성을 금합니다.
+   코드의 전부 또는 일부를 타 사이트에 게시하는 행위,
+   저작권 표시를 제거·변경하는 행위를 금합니다. 인용·링크는 자유입니다.
+  ============================================================
+   v3 변경점 (2026-08) — 군 복무 경력 반영
+     · 육군·해군·공군·해병대 특기별 경력인정 범위를 내장했다
+     · 특기명을 입력하면 직무분야를 자동 판정해 실무경력에 합산한다
+     · 근거: 한국산업인력공단 「국가기술자격검정 직무분야별 ○○ 특기 경력인정 범위」
+       육군 2026.02 / 해군 2025.02.18 / 공군 2025.02.17 / 해병대 2022.08 기준
+     · 기초군사훈련 기간은 산정에서 제외한다(원자료 명시)
+   ------------------------------------------------------------
+   v2 변경점 (2026-08)
+     · 경력을 '년수'가 아니라 '직무분야 + 년수'로 받는다
+     · 산업안전·소방설비(25.안전관리)와 위험물(18.화학)의
+       인정 범위가 다르므로 종목군별로 따로 판정한다
+     · 근거: 국가기술자격법 시행규칙 [별표 11의2] 유사 직무분야
+     · 경력증명서 담당업무 기재 가이드를 결과 화면에 추가
+   ============================================================
+   ★ 운영자 수정 지점 2곳
+     ① COURSES     : 모집중인 과정 정보 (회차마다 갱신)
+     ② ALLOW_HOSTS : 도메인 잠금 허용 목록 (파일 맨 아래)
+  ============================================================
+-->
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>안전 3종 응시자격 자가진단 — 산업안전·위험물·소방설비 | 지행재직업전문학교</title>
+<meta name="description" content="학력·전공·경력 직무분야·학점을 넣으면 산업안전·위험물·소방설비 6개 등급의 응시자격을 한 번에 판정합니다. 경력 인정 범위는 종목마다 다릅니다.">
+<style>
+  :root{
+    --navy:#1B2740; --green:#1FA85A; --green-d:#178C4A;
+    --gray:#F2F4F7; --line:#DDE1E8; --amber:#B58A00; --red:#C0392B;
+    --c-safe:#1FA85A; --c-danger:#E67E22; --c-fire:#C0392B;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; padding:24px 16px 60px; background:#F7F8FA; color:#242424;
+    font-family:'Pretendard','Apple SD Gothic Neo','맑은 고딕',sans-serif;
+    line-height:1.7; word-break:keep-all;}
+  .el-wrap{max-width:740px; margin:0 auto;}
+
+  .hd{background:var(--navy); color:#fff; border-radius:14px 14px 0 0; padding:26px 22px;}
+  .hd .tag{display:inline-block; background:var(--green); font-size:13px; font-weight:700;
+    padding:3px 10px; border-radius:20px; margin-bottom:10px;}
+  .hd h1{margin:0 0 8px; font-size:22px; line-height:1.45; font-weight:800;}
+  .hd p{margin:0; font-size:15px; color:#C4CEDD;}
+
+  .el-card{background:#fff; border:1px solid var(--line); border-top:0;
+    border-radius:0 0 14px 14px; padding:24px 22px 26px; margin-bottom:26px;}
+  .f{margin-bottom:18px;}
+  .f > label{display:block; font-size:16px; font-weight:700; color:var(--navy); margin-bottom:7px;}
+  .f .el-hint{font-size:13px; font-weight:400; color:#7A8494; margin-left:4px;}
+  select, input[type=number]{width:100%; font-size:16px; padding:12px 14px;
+    border:1px solid #CCD2DB; border-radius:8px; background:#fff; color:#242424; font-family:inherit;}
+  select:focus, input:focus{outline:none; border-color:var(--green);}
+  .note{margin:7px 0 0; font-size:13px; color:#7A8494; line-height:1.65;}
+  .el-btn{width:100%; font-family:inherit; font-size:18px; font-weight:800; color:#fff;
+    background:var(--green); border:0; border-radius:8px; padding:16px; cursor:pointer; margin-top:6px;}
+  .el-btn:hover{background:var(--green-d);}
+  .err{margin:10px 0 0; font-size:14px; color:var(--red);}
+
+  .res{margin-bottom:26px;}
+  .band{background:#fff; border:1px solid var(--line); border-radius:12px; padding:20px 20px 6px; margin-bottom:14px;}
+  .band > h2{margin:0 0 4px; font-size:18px; color:var(--navy);
+    padding-left:11px; border-left:5px solid var(--green);}
+  .band > p.s{margin:0 0 14px 16px; font-size:14px; color:#7A8494;}
+  .band.no > h2{border-left-color:#B9C0CC;}
+
+  .el-row{border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:10px;}
+  .el-row.ok{border-left:5px solid var(--green); background:#F7FCF9;}
+  .el-row.no{border-left:5px solid #C9CFD9; background:#FAFBFC;}
+  .el-row .nm{font-size:16px; font-weight:800; color:var(--navy); margin-bottom:3px;}
+  .el-row .nm em{font-style:normal; font-size:12px; font-weight:700; padding:2px 7px;
+    border-radius:4px; margin-left:5px; vertical-align:middle; color:#fff;}
+  .e-safe{background:var(--c-safe);} .e-danger{background:var(--c-danger);} .e-fire{background:var(--c-fire);}
+  .el-row .rs{font-size:14px; color:#3A4250; margin:0 0 6px;}
+  .el-row .rs b{color:var(--navy);}
+  .el-row .strat{margin:8px 0 0; padding-left:17px; font-size:14px;}
+  .el-row .strat li{margin:4px 0;}
+  .el-row .strat b{color:var(--amber);}
+  .el-row .best{color:var(--green); font-weight:800;}
+
+  .el-warn{background:#FFFBEF; border:1px solid #F0DFA8; border-radius:10px;
+    padding:15px 17px; margin-bottom:14px; font-size:14px; line-height:1.7;}
+  .el-warn h4{margin:0 0 6px; font-size:15px; color:#8A6A00;}
+  .el-warn b{color:#8A6A00;}
+
+  .guide{background:#fff; border:1px solid var(--line); border-radius:12px;
+    padding:20px 20px 18px; margin-bottom:14px;}
+  .guide h3{margin:0 0 4px; font-size:17px; color:var(--navy);
+    padding-left:11px; border-left:5px solid var(--navy);}
+  .guide p.s{margin:0 0 14px 16px; font-size:14px; color:#7A8494;}
+  .guide table{margin-bottom:10px;}
+  .bad{color:var(--red); font-weight:700;}
+  .good{color:var(--green-d); font-weight:700;}
+
+  .course{background:#EEF7F1; border:1px solid #CFE6D8; border-radius:8px;
+    padding:11px 13px; margin-top:9px; font-size:14px; line-height:1.75;}
+  .course b{color:var(--navy);}
+  .course .st{display:inline-block; background:var(--green); color:#fff; font-size:11px;
+    font-weight:700; padding:2px 7px; border-radius:4px; margin-right:5px;}
+
+  .step2{background:var(--navy); border-radius:12px; padding:24px 22px; color:#fff; margin-bottom:14px;}
+  .step2 h3{margin:0 0 6px; font-size:19px; color:#fff;}
+  .step2 p{margin:0 0 16px; font-size:15px; color:#C4CEDD;}
+  .step2 button{width:100%; font-family:inherit; font-size:16px; font-weight:800;
+    padding:14px; border-radius:8px; margin-bottom:9px; cursor:pointer; border:0;}
+  .step2 .b1{background:var(--green); color:#fff;}
+  .step2 .b2{background:transparent; color:#fff; border:1px solid #465470;}
+
+  .cta{background:var(--navy); border-radius:12px; padding:24px 22px; color:#fff; margin-bottom:26px;}
+  .cta h3{margin:0 0 8px; font-size:19px; color:#fff;}
+  .cta p{margin:0 0 16px; font-size:15px; color:#C4CEDD;}
+  .cta ol{margin:0 0 16px; padding-left:20px; color:#DDE4EE; font-size:15px;}
+  .cta ol li{margin:5px 0;}
+  .cta a{display:block; text-align:center; text-decoration:none; font-weight:800;
+    font-size:16px; padding:14px; border-radius:8px; margin-bottom:9px;}
+  .cta .primary{background:var(--green); color:#fff;}
+  .cta .ghost{background:transparent; color:#fff; border:1px solid #465470;}
+  .cta .credit{margin:14px 0 0; font-size:12px; color:#7E8CA6; text-align:center;}
+
+  .ref{background:#fff; border:1px solid var(--line); border-radius:12px; padding:22px;}
+  .ref h2{margin:0 0 6px; font-size:18px; color:var(--navy);
+    padding-left:11px; border-left:5px solid var(--navy);}
+  .ref p.sub{margin:0 0 14px; font-size:14px; color:#6B7280;}
+  table{width:100%; border-collapse:collapse; font-size:14px; margin:0 0 18px;}
+  th{background:var(--navy); color:#fff; padding:9px 8px; text-align:center; font-size:13px;}
+  td{padding:9px 8px; border-bottom:1px solid #EDF0F4; vertical-align:top;}
+  td:first-child{white-space:nowrap; font-weight:700; background:#F7F9FC; text-align:center;}
+  .ctr{text-align:center;}
+  .yes{color:var(--green-d); font-weight:800;}
+  .no2{color:var(--red); font-weight:800;}
+  .el-src{font-size:13px; color:#8A93A0; margin:0 0 4px;}
+  .disc{margin:16px 0 0; padding-top:14px; border-top:1px dashed var(--line);
+    font-size:13px; color:#7A8494;}
+  .foot{text-align:center; font-size:13px; color:#98A0AC; margin-top:26px;}
+  @media (max-width:480px){ .hd h1{font-size:20px;} th,td{font-size:13px; padding:8px 6px;} }
+
+  /* ── 탈락고객 확보 블록 ── */
+  .nurture{margin-top:22px;background:#fff;border:2px solid #1B2740;border-radius:12px;padding:24px}
+  .nurture h3{margin:0 0 8px;font-size:18px;letter-spacing:-.5px;color:#1B2740}
+  .nurture .s{margin:0 0 14px;font-size:15px;color:#4B5563;line-height:1.7}
+  .nurture-list{margin:0 0 18px;padding-left:18px;font-size:15px;color:#4B5563;line-height:1.9}
+  .nurture-list strong{color:#1B2740}
+  .nurture-cta{display:flex;gap:8px;flex-wrap:wrap}
+  .nurture-cta .b1{flex:1;min-width:180px}
+  .nurture .el-src{margin:14px 0 0}
+</style>
+</head>
+<body>
+<div class="el-wrap">
+
+  <div class="hd">
+    <span class="tag">지행재직업전문학교</span>
+    <h1>안전 3종 응시자격 자가진단<br><span style="font-size:16px;font-weight:600;color:#C4CEDD">산업안전 · 위험물 · 소방설비 6개 등급</span></h1>
+    <p>경력은 <strong>년수보다 어느 분야였는지</strong>가 먼저입니다. 종목마다 인정 범위가 다릅니다.</p>
+  </div>
+
+  <div class="el-card" id="form">
+    <div class="f">
+      <label for="edu">① 최종 학력</label>
+      <select id="edu">
+        <option value="">선택하세요</option>
+        <option value="hs">고등학교 졸업</option>
+        <option value="col2">2년제 전문대학 졸업(예정)</option>
+        <option value="col3">3년제 전문대학 졸업(예정)</option>
+        <option value="uni">4년제 대학교 졸업(예정)</option>
+        <option value="drop">대학 재학·중퇴</option>
+      </select>
+    </div>
+
+    <div class="f">
+      <label for="major">② 전공 계열 <span class="el-hint">학과명이 아니라 이수 과목으로 판단합니다</span></label>
+      <select id="major">
+        <option value="">선택하세요</option>
+        <option value="m_safe">안전·보건 계열 (안전공학·산업안전공학·보건안전학 등)</option>
+        <option value="m_fire">소방 계열 (소방안전관리학·소방학 등)</option>
+        <option value="m_em">전기·전자·기계 계열</option>
+        <option value="m_chem">화학·화공 계열</option>
+        <option value="m_eng">기타 공학 계열 (건설·토목·건축·조선·환경 등)</option>
+        <option value="m_none">그 외 전공 (인문·상경·예체능 등) · 해당 없음</option>
+      </select>
+      <p class="note">관련학과 인정은 학과 명칭이 아니라 이수한 교육과정 기준이며, 종목마다 지정 학과 목록이 다릅니다. 이 진단은 대표적인 경우를 기준으로 계산하므로 <strong>큐넷 응시자격 자가진단</strong>에서 최종 확인하시기 바랍니다.</p>
+    </div>
+
+    <div class="f">
+      <label for="cert">③ 보유한 국가기술자격 <span class="el-hint">동일·유사 직무분야 종목만</span></label>
+      <select id="cert">
+        <option value="">선택하세요</option>
+        <option value="none">없음</option>
+        <option value="craft">기능사 (위험물기능사·가스기능사·용접기능사 등)</option>
+        <option value="ind">산업기사</option>
+        <option value="eng">기사</option>
+      </select>
+      <p class="note">산업안전 분야에는 기능사 등급이 없습니다. '산업안전기능사'라는 자격은 존재하지 않으며, 여기서 말하는 기능사는 동일·유사 직무분야의 다른 종목을 뜻합니다.</p>
+    </div>
+
+    <div class="f">
+      <label for="field">④ 실무경력의 <u>직무분야</u> <span class="el-hint">가장 오래 일한 분야 하나</span></label>
+      <select id="field">
+        <option value="">선택하세요</option>
+        <option value="noexp">실무경력 없음</option>
+        <option value="safe">안전관리 — 안전관리·비파괴검사</option>
+        <option value="chem">화학 — 화공·위험물 취급</option>
+        <option value="prod">생산관리 — 제조 생산·공정·품질관리</option>
+        <option value="mach">기계 — 기계제작·설비설치·철도·조선·항공·자동차·금형</option>
+        <option value="mat">재료 — 금속재료·판금제관·단조주조·용접·도장도금</option>
+        <option value="elec">전기·전자</option>
+        <option value="const">건설 — 건축·토목·조경·도시교통·건설배관·건설기계운전</option>
+        <option value="env">환경·에너지</option>
+        <option value="ict">정보통신</option>
+        <option value="food">식품가공</option>
+        <option value="tex">섬유·의복</option>
+        <option value="wood">인쇄·목재·가구·공예</option>
+        <option value="agri">농림어업</option>
+        <option value="mine1">광업자원 — 채광</option>
+        <option value="mine2">광업자원 — 광해방지</option>
+        <option value="none">그 외 — 사무·회계·인사·영업판매·운수·음식·보건의료·복지 등</option>
+      </select>
+      <p class="note">회사의 업종이 아니라 <strong>내가 실제로 한 업무</strong>를 기준으로 고르세요. 같은 회사 소속이어도 담당 업무에 따라 분야가 달라집니다. 사무직 중에서는 <strong>생산관리 업무만</strong> 인정됩니다.</p>
+    </div>
+
+    <div class="f">
+      <label for="exp">⑤ 그 분야의 실무경력 <span class="el-hint">년 단위, 없으면 0</span></label>
+      <input type="number" id="exp" min="0" max="40" step="1" placeholder="예: 2" inputmode="numeric">
+    </div>
+
+    <div class="f">
+      <label for="milForce">⑥ 군 복무 경력 <span class="el-hint">해당 없으면 비워 두세요</span></label>
+      <select id="milForce">
+        <option value="">해당 없음 · 군 경력을 넣지 않겠습니다</option>
+        <option value="army">육군</option>
+        <option value="navy">해군</option>
+        <option value="air">공군</option>
+        <option value="marine">해병대</option>
+      </select>
+      <div id="milBox" hidden style="margin-top:10px">
+        <input type="text" id="milSpec" list="milList" placeholder="특기명을 입력하세요 (예: 화생방)" autocomplete="off">
+        <datalist id="milList"></datalist>
+        <p class="note" id="milHit" style="margin-top:6px"></p>
+        <input type="number" id="milMon" min="0" max="480" step="1" placeholder="복무 개월 수 (예: 18)" inputmode="numeric" style="margin-top:8px">
+        <p class="note"><strong>기초군사훈련 기간은 빼고</strong> 특기를 부여받은 뒤의 기간만 넣으십시오. 전역 후 증빙은 <strong>병적증명서</strong> 또는 <strong>경력증명서</strong>로 합니다.</p>
+      </div>
+    </div>
+
+    <div class="f">
+      <label for="credit">⑦ 학점은행제 이수 학점 <span class="el-hint">해당 없으면 0</span></label>
+      <input type="number" id="credit" min="0" max="200" step="1" placeholder="예: 0" inputmode="numeric">
+    </div>
+
+    <button type="button" class="el-btn" id="go">6개 등급 한 번에 확인하기</button>
+    <p class="err" id="err" hidden>①~⑤와 ⑦을 모두 입력·선택해 주세요. ⑥ 군 복무는 해당하실 때만 넣으시면 됩니다.</p>
+  </div>
+
+  <div class="res" id="res" hidden></div>
+
+  <!-- 정적 기준표 : 도구를 쓰지 않아도 정보가 전달되도록 병기 -->
+  <div class="ref">
+    <h2>경력 인정 범위는 종목마다 다릅니다</h2>
+    <p class="el-sub">산업안전·소방설비는 <strong>안전관리(25)</strong> 분야, 위험물은 <strong>화학(18)</strong> 분야에 속합니다. 그래서 인정되는 경력 범위가 다릅니다.</p>
+
+    <table>
+      <thead><tr><th>내 경력 분야</th><th>산업안전<br>소방설비</th><th>위험물</th></tr></thead>
+      <tbody>
+        <tr><td>안전관리·비파괴검사</td><td class="ctr yes">동일</td><td class="ctr yes">○</td></tr>
+        <tr><td>화학·화공·위험물</td><td class="ctr yes">○</td><td class="ctr yes">동일</td></tr>
+        <tr><td>생산관리(제조)</td><td class="ctr yes">○</td><td class="ctr yes">○</td></tr>
+        <tr><td>기계</td><td class="ctr yes">○</td><td class="ctr yes">○</td></tr>
+        <tr><td>재료</td><td class="ctr yes">○</td><td class="ctr yes">○</td></tr>
+        <tr><td>섬유·의복</td><td class="ctr yes">○</td><td class="ctr yes">○</td></tr>
+        <tr><td>환경·에너지</td><td class="ctr yes">○</td><td class="ctr yes">○</td></tr>
+        <tr><td>광업자원(채광)</td><td class="ctr yes">○</td><td class="ctr yes">○</td></tr>
+        <tr><td>광업자원(광해방지)</td><td class="ctr yes">○</td><td class="ctr no2">✗</td></tr>
+        <tr><td>건설</td><td class="ctr yes">○</td><td class="ctr no2">✗</td></tr>
+        <tr><td>전기·전자</td><td class="ctr yes">○</td><td class="ctr no2">✗</td></tr>
+        <tr><td>정보통신</td><td class="ctr yes">○</td><td class="ctr no2">✗</td></tr>
+        <tr><td>식품가공</td><td class="ctr yes">○</td><td class="ctr no2">✗</td></tr>
+        <tr><td>인쇄·목재·가구·공예</td><td class="ctr yes">○</td><td class="ctr no2">✗</td></tr>
+        <tr><td>농림어업</td><td class="ctr yes">○</td><td class="ctr no2">✗</td></tr>
+        <tr><td>사무·회계·인사·영업판매<br>운수·음식·보건의료·복지</td><td class="ctr no2">✗</td><td class="ctr no2">✗</td></tr>
+      </tbody>
+    </table>
+    <p class="el-src">※ 자료: 국가기술자격법 시행규칙 [별표 11의2] 유사 직무분야(제10조의2제1항 관련), 개정 2019. 6. 11. / 한국산업인력공단 큐넷 '응시자격 인정범위'.</p>
+
+    <h2 style="margin-top:24px">군 복무 경력도 실무경력으로 인정됩니다</h2>
+    <p class="el-sub">한국산업인력공단은 <strong>군 특기별로 어느 직무분야에 해당하는지</strong>를 표로 정해 두고 있습니다. 그 직무분야가 인정 범위에 들면 <strong>복무기간이 그대로 실무경력</strong>이 됩니다. 다만 <strong>기초군사훈련 기간은 제외</strong>합니다.</p>
+
+    <table>
+      <thead><tr><th>군</th><th>산업안전·소방설비에 <b>동일</b> 직무분야(25.안전관리)</th><th>위험물에 <b>동일</b> 직무분야(18.화학)</th></tr></thead>
+      <tbody>
+        <tr><td>육군</td><td>군사경찰, 수사, 소방장비, 의무, 의정, 물리치료, 방사선, 물리분석</td><td>화생방, 화생방작전, 화생방제독, 화생방정찰, 화생방장비정비, 탄약, 탄약관리, 탄약검사, 탄약정비, 폭발물처리, 특전폭파, 연료관리, 연막, 약제, 화학분석</td></tr>
+        <tr><td>해군</td><td>병기, 무장, 시설, 의무, 간호, 군의, 치의, 치무, 병리, 보건, 의공, 의정, 재활치료, 방사선, 물리분석</td><td>탄약, 탄약취급, 화생방, 화학분석</td></tr>
+        <tr><td>공군</td><td>안전, 항공안전, 소방, 소방구조, 항공구조, 항공기초과저지, 비파괴검사, 의무, 항공의무, 간호, 치의, 의정, 병리, 보건, 방사선, 물리분석</td><td>화생방, 화학분석</td></tr>
+        <tr><td>해병대</td><td>시설, 병리, 치무, 재활치료, 방사선, 물리분석</td><td>화생방, 화생방장비, 탄약, 폭발물처리, 화학분석</td></tr>
+      </tbody>
+    </table>
+    <p class="el-src">※ 위 표는 <strong>동일 직무분야로 잡히는 대표 특기</strong>만 추린 것입니다. 기계·재료·전기·건설 등 <strong>유사 직무분야로 인정되는 특기는 훨씬 많습니다</strong>(예: 육군 기계 분야만 150개가 넘습니다). 위 진단기 ⑥번에 군과 특기명을 넣으시면 전체 표에서 찾아 자동으로 판정합니다.</p>
+    <p class="el-src">※ 자료: 한국산업인력공단 「국가기술자격검정 직무분야별 육군·해군·공군·해병대 특기 경력인정 범위」. 기준일 — 육군 2026년 2월, 해군 2025년 2월 18일, 공군 2025년 2월 17일, <strong>해병대 2022년 8월</strong>(가장 오래된 자료이므로 해병대 출신은 공단 확인을 권합니다).</p>
+    <p class="el-src">※ 군별로 같은 이름의 특기가 다른 직무분야에 들어가는 경우가 있습니다. 예를 들어 <strong>간호는 해군·공군에서는 25.안전관리로 잡히지만 육군에서는 06.보건·의료</strong>여서 인정되지 않습니다. 반드시 본인이 복무한 군의 표로 확인하십시오.</p>
+
+    <h2 style="margin-top:24px">등급별 응시자격 기준</h2>
+    <p class="el-sub">아래 조건 중 <strong>하나만 충족</strong>하면 응시할 수 있습니다.</p>
+    <table>
+      <thead><tr><th>등급</th><th>해당 종목</th><th>응시자격</th></tr></thead>
+      <tbody>
+        <tr><td>기능사</td><td>위험물기능사</td><td><strong>제한 없음</strong> — 학력·경력 무관 누구나</td></tr>
+        <tr><td>산업기사</td><td>산업안전산업기사<br>위험물산업기사<br>소방설비산업기사</td><td>관련학과 전문대 졸업(예정) 이상<br>기능사 취득 + 경력 1년<br>동일·유사 분야 산업기사 이상 취득<br>실무경력 2년<br>학점은행 41학점</td></tr>
+        <tr><td>기사</td><td>산업안전기사<br>소방설비기사</td><td>관련학과 4년제 졸업(예정)<br>3년제 전문대 + 경력 1년 / 2년제 + 경력 2년<br>산업기사 취득 + 경력 1년<br>기능사 취득 + 경력 3년<br>동일·유사 분야 기사 취득<br>실무경력 4년<br>학점은행 106학점</td></tr>
+      </tbody>
+    </table>
+
+    <h2 style="margin-top:24px">종목별 등급 구성</h2>
+    <p class="el-sub">종목마다 있는 등급이 다릅니다.</p>
+    <table>
+      <thead><tr><th>종목</th><th>기능사</th><th>산업기사</th><th>기사</th></tr></thead>
+      <tbody>
+        <tr><td>산업안전</td><td class="ctr">없음</td><td class="ctr">○</td><td class="ctr">○</td></tr>
+        <tr><td>위험물</td><td class="ctr"><strong>○</strong></td><td class="ctr">○</td><td class="ctr">없음<br><span style="font-size:12px;color:#8A93A0">(상위는 기능장)</span></td></tr>
+        <tr><td>소방설비</td><td class="ctr">없음</td><td class="ctr">○</td><td class="ctr">○</td></tr>
+      </tbody>
+    </table>
+    <p class="el-src">※ 소방설비는 <strong>전기분야·기계분야</strong>로 나뉘며, 응시자격은 동일합니다.</p>
+    <p class="el-src">※ 자료: 한국산업인력공단 큐넷(q-net.or.kr) 응시자격 기준, 국가기술자격법 시행령 별표 4의2. 2026년 기준.</p>
+
+    <p class="disc">
+      이 진단은 <strong>대표적인 응시자격 경로를 기준으로 한 참고용 안내</strong>입니다.
+      경력의 직무분야 판정, 학과의 관련성 인정 범위, 학점 인정 등은
+      <strong>한국산업인력공단이 개별 심사</strong>하며 결과가 달라질 수 있습니다.
+      <strong>최종 확인은 큐넷 회원가입 후 '응시자격 자가진단'</strong>에서 하시고,
+      판단이 어려우면 <strong>고객센터 1644-8000</strong>으로 문의하세요.
+      원서 접수 시 경력증명서·졸업증명서 제출 기한을 놓치지 않도록 주의하시기 바랍니다.
+      <strong>군 복무 경력은 병적증명서 등으로 증빙</strong>해야 하며, 특기 명칭과 복무기간이 서류에 그대로 드러나야 합니다.
+    </p>
+  </div>
+
+  <p class="foot"><a href="/" style="color:#6B7280">← 홈으로</a><br>© 2026 지행재직업전문학교 · 울산 남구 북부순환도로 17</p>
+</div>
+
+<script>
+(function(){
+
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+
+  /* ============================================================
+     ★① 모집중인 과정 — 회차마다 이 부분만 고치면 됩니다
+        status : "모집중" | "예정" | "마감"
+     ============================================================ */
+  var COURSES = {
+    /* ★① 회차마다 갱신 — 산대특 2026년 2차 (2026-09-14 기준) */
+    "위험물기능사":     { status:"모집중",   open:"10월 12일", weeks:"180시간 · 30일", time:"주간 09:00~16:00", cost:"115,380원" },
+    "위험물산업기사":   { status:"모집중",   open:"10월 12일", weeks:"180시간 · 30일", time:"주간 09:00~16:00", cost:"115,380원" },
+    "산업안전산업기사": { status:"모집중",   open:"10월 26일", weeks:"300시간 · 50일", time:"주간 09:00~16:00", cost:"198,600원" },
+    "산업안전기사":     { status:"모집중",   open:"10월 26일", weeks:"300시간 · 50일", time:"주간 09:00~16:00", cost:"198,600원" },
+    "소방설비산업기사": { status:"개설예정", open:"", weeks:"", time:"", cost:"" },
+    "소방설비기사":     { status:"개설예정", open:"", weeks:"", time:"", cost:"" }
+  };
+
+  var KAKAO = "https://pf.kakao.com/_bnxnAX";
+  var HOME  = "https://www.jhj.education/?utm_source=jindan&utm_medium=tool&utm_campaign=safety3";
+  var TEL   = "tel:0522673172";
+  var CARD  = "https://www.work24.go.kr";
+
+  /* ── 경력 직무분야 인정표 (별표 11의2) ──
+     s = 안전관리(251) 종목군 : 산업안전·소방설비
+     h = 화학(182) 종목군     : 위험물
+     2 = 동일 직무분야 / 1 = 유사 직무분야 / 0 = 미인정              */
+  var FIELD = {
+    noexp:{ s:0, h:0, t:"실무경력 없음" },
+    safe :{ s:2, h:1, t:"안전관리" },
+    chem :{ s:1, h:2, t:"화학·화공·위험물" },
+    prod :{ s:1, h:1, t:"생산관리" },
+    mach :{ s:1, h:1, t:"기계" },
+    mat  :{ s:1, h:1, t:"재료" },
+    tex  :{ s:1, h:1, t:"섬유·의복" },
+    env  :{ s:1, h:1, t:"환경·에너지" },
+    mine1:{ s:1, h:1, t:"광업자원(채광)" },
+    mine2:{ s:1, h:0, t:"광업자원(광해방지)" },
+    const:{ s:1, h:0, t:"건설" },
+    elec :{ s:1, h:0, t:"전기·전자" },
+    ict  :{ s:1, h:0, t:"정보통신" },
+    food :{ s:1, h:0, t:"식품가공" },
+    wood :{ s:1, h:0, t:"인쇄·목재·가구·공예" },
+    agri :{ s:1, h:0, t:"농림어업" },
+    none :{ s:0, h:0, t:"그 외(사무·영업·서비스 등)" }
+  };
+
+  /* ── 전공 계열 인정도 ──  2 = 인정 가능성 높음 / 1 = 확인 필요 / 0 = 비관련 */
+  var MAJOR = {
+    m_safe:{ s:2, h:1 }, m_fire:{ s:2, h:1 }, m_em:{ s:2, h:1 },
+    m_chem:{ s:1, h:2 }, m_eng:{ s:1, h:1 }, m_none:{ s:0, h:0 }
+  };
+
+  /* ── 군 특기 → 직무분야 대응표 ──
+     자료: 한국산업인력공단 「국가기술자격검정 직무분야별 ○○ 특기 경력인정 범위」
+     육군 2026.02 · 해군 2025.02.18 · 공군 2025.02.17 · 해병대 2022.08 기준
+     값은 위 FIELD 의 키와 같습니다. 쉼표는 두 직무분야에 걸친 특기입니다.
+     ★ 갱신 시 이 블록만 교체하면 됩니다.                              */
+var MIL_SPEC={
+"army":{"AH-1S정비":"mach","AH-64 정비":"mach","CH-47 정비":"mach","EA 운용":"ict","ES 운용":"ict","K-21보병전투차량부대정비":"mach","K-21보병전투차량승무":"mach","K-53계열 차량운전":"mach","K-55자주포정비":"mach","K-55자주포조종":"mach","K239 포병":"ict,mach","K9자주포조종":"mach","K9자주포화포/장갑정비":"mach","KUH-1정비":"mach","K계열 전차 부대정비":"mach","K계열 전차승무":"mach","K계열 전차조종":"mach","M/A 포병":"ict","MC군사경찰":"mach","MW운용/정비":"ict","M계열 전차 부대정비":"mach","M계열 전차승무":"mach","SW개발":"ict","TOD/라지트운용":"ict","UAV운용":"mach","UAV정비":"mach","UH-1H 정비":"mach","UH-60 정비":"mach","간호":"none","간호조무사":"none","감시장비운용":"ict","감시장비정비":"mach","건축":"const","견인차량운전":"mach","견인포병":"mach","견인포정비":"mach","공격헬기정비":"mach","공기압축기 운용":"const","공병":"const","공병장비부대정비":"mach","공병장비운용 및 정비":"mach","공병장비운용/정비":"mach","공병장비정비":"mach","공병중장비정비":"mach","공보정훈":"none","과학화전투훈련":"ict","관재":"const","광학 및 감시장비 정비":"mach","광학/감시장비정비":"mach","광학기재정비":"mach","교량가설보트운전":"const","교량전차 조종":"const","교량전차조종":"const","교환":"ict","교환시설운용/정비":"ict","구난차량운전":"mach","국악":"none","군사경찰":"ict,safe","군사정보":"ict,none","군수":"mach,prod","군악":"none","군의":"none","군종":"none","군종행정":"none","굴삭기운용":"const","굴착기 운용":"const","궤도차량정비":"mach","그레이더 운용":"const","기갑":"mach","기계":"mach","기관":"mach","기동헬기운용":"mach","기동헬기정비":"elec,mach","기상관":"env","기술정보":"ict","낙하산정비":"tex","네트워크 운용/정비":"ict","다련장 운용/정비":"mach","다목적 굴착기 운전":"const","다중무선장비정비":"ict","대공포/유도무기정비":"mach","대공포정비":"mach","대전차유도무기정비":"mach","대전차유도탄":"mach","대전차화기":"mach","대형차량운전":"mach","도저 운용":"const","도하장비 조종":"const","드론/UAV운용":"mach","드론운용/정비":"mach","땅굴탐지":"elec","레이다 영상분석":"ict","레이다 운용/정비":"ict","레이다운용 및 정비":"ict","레이다정비":"ict","로더운전":"const","로켓무기정비":"mach","로켓정비":"mach","로켓포병":"mach","로켓포사격지휘":"ict","롤러 운용":"const","목공":"const","무선운용 밎 정비":"ict","무선장비검사 및 정비":"ict","무선장비정비":"ict","무선전송장비 운용/정비":"ict","무인항공정찰기 운용":"mach","물리분석":"safe","물리치료":"safe","물자근무지원":"mach","물자보급":"prod","박격포":"mach","반송기운용 및 정비":"ict","발전기 운용/정비":"mach","발전기정비":"mach","발칸운용/정비":"mach","발칸포정비":"mach","방공":"mach","방공/유도무기정비":"mach","방공대공포 정비":"mach","방공레이더 운용/정비":"mach","방공레이더정비":"mach","방공무기운용":"mach","방공유도무기정비":"mach","방공작전통제":"ict","방사선":"safe","방첩":"ict","배관/기계설비":"const","법무":"none","법무행정":"none","병기":"mach","병리":"none","병참":"prod","병참장비정비":"mach","보건":"none","보건의료정보관리":"ict","보병":"mach","보안":"ict","보안장비정비":"mach","비호운용/정비":"mach","비호정비":"mach","사격지휘":"ict","사서":"ict","사어버·정보체계운용":"ict","사이버":"ict","사이버작전":"ict","사이버전문":"ict","사이버정보체계운용":"ict","사진운용/정비":"wood","선박운용":"mach","소방장비":"safe","소총":"mach","소형차량운전":"mach","수사":"safe","수송":"mach","수송운용":"mach","수의":"none","시설":"mach","시설공병":"const","식품검사":"food","신호정보":"ict","신호정보/전저전운용":"ict","실용음악":"none","안경":"elec","암호운용":"ict","암호장비정비":"ict","암호체계관리":"ict","야전건설":"const","야전공병":"const","야전포병":"mach","야전포병정비":"mach","약무":"chem","약제":"chem","양악":"none","연료관리":"chem","연막":"chem","영상":"wood","영상정보":"ict","영상제작":"none","영양관리":"food","영현등록":"none","오리콘운용/정비":"mach","오리콘포정비":"mach","용접":"mat","용접 및 철물 정비":"mat","용접/기계공작":"mat","운전":"mach","위성/MW운용":"ict","위성운용/정비":"ict","유도무기":"mach","유도무기정비":"mach","유선운용 및 정비":"ict","유선장비정비":"ict","응급구조사":"none","의공":"mach","의무":"safe","의무기록":"ict","의무보급":"prod","의무장비정비":"mach","의정":"safe","이동관리":"ict","이동통신장비운용/정비":"ict","이미용":"none","인간정보":"ict","인사":"wood","인사행정":"wood","인쇄":"wood","일반기계":"mach","일반보병":"mach","일반의무":"none","일반장비정비":"mach","일반행정":"ict","임상병리":"none","자동측지 운용/정비":"mach","자동화체계운용 및 정비":"ict","자주포 야전정비":"mach","자주포장갑정비":"mach","자주포정비":"mach","자주포조종":"mach","장갑전투도저 조종":"const","장갑차":"mach","장갑차 야전정비":"mach","장갑차 조종":"mach","장갑차부대정비":"mach","장비보급정비":"mach","장비수리부속공구보급":"prod","장비수리부속관리":"prod","장비수리부속보급":"prod","장애물개척전차조종":"mach","장애물운용(E)":"chem","장애물운용(M)":"chem","재정":"none","재정회계":"none","재활치료":"none","저고도레이다정비":"ict","전기":"elec","전기설비":"elec","전력화":"ict","전문간호":"none","전문물리치료":"safe","전문방사선촬영":"safe","전문약제":"none","전문임상병리":"none","전문치과":"none","전산":"ict","전술C4I운용/정비":"ict","전술통신운용":"ict","전술통신장비운용/정비":"ict","전술통신정비":"ict","전자":"elec","전장이동통제":"ict","전차":"mach","전차 및 장갑차 정비":"mach","전차/장갑차정비":"mach","전차승무":"mach","전차정비":"mach","전차통신정비":"ict","전투공병":"const","전투장갑도쟈운용":"const","정보":"ict","정보보호":"ict","정보전문":"ict","정보체계기술":"ict","정보체계운용정비":"ict","정보통신":"ict","정보통신망 관리장비 운용/정비":"ict","정보통신망관리":"ict","정보화":"ict","정비":"mach","정수장비 운용":"const","정찰":"ict","정훈":"none","조경":"const","조리":"food","주조(금속)":"mat","중계기":"ict","중장비정비":"mach","중형차량운전":"mach","지게차 운전":"const","지도":"const","지원보급":"ict","지형분석":"const","차량":"mach","차량부대정비":"mach","차량정비":"mach","차륜형장갑차운전":"mach","천마운용/정비":"mach","천마정비":"mach","천호운용/정비":"mach","총기정비":"mach","총포":"mach","총포정비":"mach","측지":"const","치과":"none","치기공":"mach","치무":"none","치위생":"none","치의":"none","크레인 운용":"const","크레인차량 운전":"const","탄약":"chem","탄약검사":"chem","탄약관리":"chem","탄약정비":"chem","토목":"const","통신":"ict","통신보조":"ict","통신전자정비":"ict","특수통신운용":"ict","특수통신장비정비":"ict,mach","특수통신정비":"ict","특임군사경찰":"none","특임보병":"mach","특전":"chem,ict,mach","특전보병":"mach","특전의무":"none","특전장비정비":"mach","특전정작":"ict","특전통신":"ict","특전폭파":"chem","특전화기":"mach","편성보급":"prod","포병":"mach","포병레이더":"ict","포병측지":"const,env","포병탐지레이다 운용 및 정비":"mach","포병표적":"mach","폭발물처리":"chem","표적탐지레이더정비":"mach","항공":"mach","항공군수":"prod","항공기관":"mach","항공기체":"mach","항공도장":"mat","항공보기":"mach","항공운항":"mach","항공운항/관제":"mach","항공정비":"mach","항공지원":"mach","항만운영":"const","항만운용":"const","헬기무장정비":"mach","헬기통신전자정비":"elec","현무 포병":"mach","현무운용 및 정비":"mach","현무정비":"mach","화력/기동장비정비":"mach","화생방":"chem","화생방물자운용":"chem","화생방작전":"chem","화생방장비 정비":"chem","화생방장비정비":"chem","화생방정찰":"chem","화생방제독":"chem","화포 및 대공포 정비":"mach","화포정비":"mach","화학분석":"chem","환경":"env","휴대용유도무기운용/정비":"mach","휴대용유도탄정비":"mach"},
+"navy":{"간호":"safe","갑판":"const","갑판병":"const","갑판병(이발병)":"none","건축":"const","공병":"const","공병병":"const","공병장비운용병":"mach","교환":"ict","군사경찰":"ict","군사경찰병":"ict","군사정보":"ict","군수":"prod","군악":"none","군악병":"none","군의":"safe","군종":"none","금속":"mat","기계":"mach","기관":"mach","기관병":"mach","기상":"env","기상예보":"env","기술정보":"ict","기체":"mach","대형수송병":"mach","목공":"const","무장":"safe","무장병":"safe","문화홍보병":"none","물리분석":"safe","발간":"wood","방사선":"safe","법무":"none","병기":"safe","병리":"safe","병참":"prod","보건":"safe","보급":"prod","보급병":"prod","사서":"ict","사이버":"ict","사이버·정보체계운용":"ict","사통":"mach","선거":"mach","선체":"mach","손상통제":"mat","손상통제병":"mat","수사":"ict","수송":"mach","수송병":"mach","시설":"safe","약무":"food","영상":"none","영양관리":"food","용접":"mat","운전":"mach","유도무기":"mach","음탐":"ict","의공":"safe","의무":"safe","의무기록":"ict","의무병":"safe","의정":"safe","이미용":"none","인쇄":"wood","일반기계":"mach","일반수송병→수송병":"mach","잠수":"const","잠수병":"const","재정":"none","재활치료":"safe","전기":"elec","전기병":"elec","전산":"ict","전자":"elec","전자기전":"elec","전자기전병":"elec","전차":"mach","전탐":"ict","전탐병":"ict","정보":"ict","정보병":"ict","정보통신":"elec,ict","정보통신병":"ict","정보통신병(전공병)":"ict","정보통신병(전산병)":"ict","정보통신병(통신병)":"ict","정훈":"none","조경":"const","조리":"food","조리병":"food","조타":"mach","조타병":"mach","조함":"mach","지도":"const","차량":"mach","총포":"mach","추진기관":"mach","추진기관병":"mach","치무":"safe","치의":"safe","탄약":"chem","탄약취급":"chem","토목":"const","통신":"ict","통신(통신보조)":"ict","통역":"none","통정":"ict","통정병":"ict","특전":"mine1","특전병":"mine1","특정":"mine1","함정":"mach","함정('12년 이후 임관자)":"mach","함정(기관)('12년 이전 임관자)":"mach","함정(항해)('12년 이전 임관자)":"mach","함정기관":"mach","항공":"mach","항공관제":"mach","항공기관":"mach","항공기체":"mach","항공무장":"mach","항공병":"mach","항공보기":"mach","항공장비":"mach","항공전술":"mach","항공전자":"mach","항공지원":"mach","항해":"const,mach","행정":"none","화생방병":"chem","화학분석":"chem","환경":"env","환경관리":"env"},
+"air":{"간호":"safe","건축":"const","경장갑차운전":"mach","공병":"const","공병건설":"const","공병설비":"mach","공병장비운전":"const","광역전송체계정비 기반통신체계운용":"ict","교환":"ict","군사경찰":"mach","군사정보":"ict","군수":"prod","금속":"mat","기계":"mach","기계설비":"mach","기상":"env","기상관측":"env","기상예보":"env","기상장비정비":"mach","기술정보":"ict","기체":"mach","단/중거리유도무기운용":"mach","단거리유도무기운용":"mach","대공포운용":"mach","목공":"const","무선통신체계정비 작전통신체계운용":"ict","물리분석":"safe","방공유도무기레이더정비":"mach","방공유도무기발사정비":"mach","방공유도무기사격통제정비":"mach","방공유도무기정비":"mach","방공포병":"mach","방공포차량운전":"mach","방사선":"safe","병리":"safe","병참":"prod","보건":"safe","보급수송":"prod","보안체계관리 사이버체계운용":"ict","비파괴검사":"safe","비행제어장비정비":"mach","사서":"ict","사이버·정보체계운용 사이버체계운용":"ict","소방":"safe","소방구조":"safe","수리부속보급관리":"prod","수사":"ict","수송운영":"mach","시설":"const","안전":"safe","영상":"none","영양관리":"food","용접":"mat","운항관제":"mach","유도무기":"mach","유류보급":"prod","유선통신체계정비":"ict","유선통신체계정비 기반통신체계운용":"ict","의공":"safe","의무":"safe","의무기록":"safe","의정":"safe","이미용":"none","인사교육":"ict","인쇄":"wood","일반기계":"mach","일반차량운전":"mach","장거리유도무기발사운용":"mach","장거리유도무기운용":"mach","장거리유도무기추적운용":"mach","장비물자보급":"prod","장비물자보급관리":"prod","재활치료":"safe","전기":"elec","전력설비":"elec","전산":"ict","전술항공통신체계정비 작전통신체계운용":"ict","전자":"elec","정밀측정장비정비":"mach","정보":"ict","정보통신":"ict","정훈":"none","조경":"const","조리":"food","조종":"mach","조종교관":"mach","중거리유도무기발사운용":"mach","중거리유도무기추적운용":"mach","중거리유도무기탐지운용":"mach","지상레이더체계정비 작전통신체계운용":"ict","차량":"mach","차량정비":"mach","치의":"safe","탄약":"mach","토목":"const","토목건축":"const","통신":"ict","특수정보":"ict","특수차량운전":"mach","항공관제":"mach","항공구조":"safe","항공기관":"mach","항공기기관정비":"mach","항공기기체정비":"mach","항공기무기정비":"mach","항공기유압전기정비":"mach","항공기유압정비":"mach","항공기전기정비":"mach","항공기제작정비":"mach","항공기지상장비정비":"mach","항공기초과저지":"safe","항공무기정비":"mach","항공보기":"mach","항공안전":"safe","항공운수":"mach","항공운항":"mach","항공의무":"safe","항공장구정비":"mach","항공전산장비정비":"mach","항공전자장비정비":"mach","항공전자전장비정비":"mach","항공전자제어장비정비":"mach","항공정보운영":"ict","항공지원":"mach","항공탄약정비":"mach","항공통신전자장비정비":"mach","항공통신항법장비정비":"mach","항공통제":"mach","항해":"mach","행정":"ict","화생방":"chem","화학분석":"chem","환경":"env"},
+"marine":{"건축":"const","계산":"mach","공병":"const","공보정훈":"none","교환운영":"ict","군기":"ict","군사경찰":"ict","군사정보":"ict","군수":"prod","군악":"none","궤도장비":"mach","금속":"mat","급양":"food","기갑":"mach","기계공작":"mach","기계운영":"mach","기본보병":"mach","기체":"mach","대공무기":"mach","대전차무기":"mach","대전차화기":"mach","목공운영":"const","물리분석":"safe","박격포":"mach","발간운영":"wood","방공무기운용":"mach","방사선":"safe","변경 : 27-05전산 → 27-02사이버정보체계":"ict","병리":"safe","병참운영":"prod","보급":"prod","보병":"mach","사서":"ict","사이버":"ict","사이버정보체계":"ict","사이버정보체계 삭제":"ict","상륙장갑":"mach","수사":"ict","수색":"const","시설":"safe","시설공병":"const","신호정보":"ict","야포":"mach","약무":"food","영상":"none","영상정보":"ict","영양관리":"food","용접":"mat","운전":"mach","운전운영":"mach","유도·특수무기":"mach","유도무기":"mach","이미용운영":"none","인쇄":"wood","일반기계":"mach","자주포":"mach","자주포정비":"mach","자주포조종":"mach","잠수":"const","장갑차승무":"mach","장비공병":"mach","재정":"none","재활치료":"safe","전기":"elec","전산":"ict","전술통신":"ict","전자":"elec","전자 및 광학장비":"mach","전차":"mach","전차·장갑차":"mach","전차승무":"mach","전차장비":"mach","전차정비":"mach","전탐":"ict","전투공병":"mach","정보":"ict","정보통신":"ict","조경운영":"const","조리운영":"food","조사 및 법무":"none","지도":"const","차량":"mach","차량정비":"mach","총포":"mach","측지":"mach","치무":"safe","탄약":"chem","탄약·폭발물처리":"chem","통기":"ict","통신":"ict","포병":"mach","폭발물처리":"chem","항공":"mach","항공관제":"mach","항공기관":"mach","항공정비":"mach","행정":"none","화생방":"chem","화생방장비":"chem","화학분석":"chem","환경":"env"}
+};
+
+  var FORCE_NM = { army:"육군", navy:"해군", air:"공군", marine:"해병대" };
+
+  /* 군 선택 → 그 군의 특기 목록만 자동완성에 채웁니다 */
+  function fillSpecList(){
+    var f = $("milForce").value, box = $("milBox"), dl = $("milList");
+    box.hidden = !f;
+    $("milHit").innerHTML = "";
+    if(!f){ dl.innerHTML = ""; return; }
+    var names = Object.keys(MIL_SPEC[f]).sort();
+    dl.innerHTML = names.map(function(n){ return '<option value="'+n+'">'; }).join("");
+  }
+  $("milForce").addEventListener("change", fillSpecList);
+
+  /* 입력한 특기가 표에 있는지 즉시 알려줍니다 */
+  function specKeys(){
+    var f = $("milForce").value;
+    if(!f) return null;
+    var v = ($("milSpec").value || "").replace(/\s/g,"");
+    if(!v) return null;
+    var tbl = MIL_SPEC[f], hit = null;
+    for(var k in tbl){ if(k.replace(/\s/g,"") === v){ hit = k; break; } }
+    if(!hit){ for(var k2 in tbl){ if(k2.replace(/\s/g,"").indexOf(v) === 0){ hit = k2; break; } } }
+    if(!hit) return null;
+    return { name:hit, keys:tbl[hit].split(",") };
+  }
+  $("milSpec").addEventListener("input", function(){
+    var r = specKeys(), el = $("milHit");
+    if(!r){ el.innerHTML = $("milSpec").value ? '<span style="color:#C0392B">표에서 찾지 못한 특기입니다. 목록에서 골라 주세요.</span>' : ""; return; }
+    var names = r.keys.map(function(k){ return FIELD[k] ? FIELD[k].t : k; }).join(" · ");
+    el.innerHTML = '<b>'+r.name+'</b> → 직무분야 <b>'+names+'</b>';
+  });
+
+  /* ── 종목 정의 ── fam: s(안전관리군) / h(화학군) */
+  var ITEMS = [
+    { name:"위험물기능사",     fam:"h", grade:"craft", col:"danger", label:"위험물" },
+    { name:"산업안전산업기사", fam:"s", grade:"ind",   col:"safe",   label:"산업안전" },
+    { name:"소방설비산업기사", fam:"s", grade:"ind",   col:"fire",   label:"소방설비" },
+    { name:"위험물산업기사",   fam:"h", grade:"ind",   col:"danger", label:"위험물" },
+    { name:"산업안전기사",     fam:"s", grade:"eng",   col:"safe",   label:"산업안전" },
+    { name:"소방설비기사",     fam:"s", grade:"eng",   col:"fire",   label:"소방설비" }
+  ];
+
+  var okList = [], noList = [];
+
+  function courseBox(name){
+    var c = COURSES[name];
+    if(!c || c.status === "마감") return "";
+    var bits = [];
+    if(c.open) bits.push("개강 " + c.open);
+    if(c.weeks) bits.push(c.weeks);
+    if(c.time) bits.push(c.time);
+    if(c.cost) bits.push("자부담 " + c.cost);
+    var detail = bits.length ? bits.join(" · ") : "회차 일정은 상담에서 안내드립니다";
+    return '<div class="course"><span class="st">' + c.status + '</span>' +
+           '<b>' + name + ' 과정</b><br>' + detail + '</div>';
+  }
+
+  /* ── 등급 판정 ── */
+  function judgeInd(rel, edu, cert, exp, credit){
+    var ok = [];
+    if(rel && (edu==="col2"||edu==="col3"||edu==="uni")) ok.push("관련학과 전문대 졸업(예정) 이상");
+    if(cert==="craft" && exp>=1) ok.push("기능사 취득 + 인정경력 1년 이상");
+    if(cert==="ind"||cert==="eng") ok.push("동일·유사 분야 산업기사 이상 취득");
+    if(exp>=2) ok.push("인정 직무분야 실무경력 2년 이상");
+    if(credit>=41) ok.push("학점은행 41학점 이상");
+    return ok;
+  }
+  function judgeEng(rel, edu, cert, exp, credit){
+    var ok = [];
+    if(rel && edu==="uni") ok.push("관련학과 4년제 졸업(예정)");
+    if(rel && edu==="col3" && exp>=1) ok.push("3년제 전문대 졸업 + 인정경력 1년 이상");
+    if(rel && edu==="col2" && exp>=2) ok.push("2년제 전문대 졸업 + 인정경력 2년 이상");
+    if(cert==="ind" && exp>=1) ok.push("산업기사 취득 + 인정경력 1년 이상");
+    if(cert==="craft" && exp>=3) ok.push("기능사 취득 + 인정경력 3년 이상");
+    if(cert==="eng") ok.push("동일·유사 분야 기사 취득");
+    if(exp>=4) ok.push("인정 직무분야 실무경력 4년 이상");
+    if(credit>=106) ok.push("학점은행 106학점 이상");
+    return ok;
+  }
+
+  /* 남은 기간을 년·개월로 씁니다 (군 경력이 붙으면 소수가 나오기 때문) */
+  function gapTxt(y){
+    var m = Math.max(Math.ceil(y*12), 0);
+    if(m === 0) return "0개월";
+    var yy = Math.floor(m/12), mm = m % 12;
+    return (yy ? yy+"년" : "") + (yy && mm ? " " : "") + (mm ? mm+"개월" : "");
+  }
+
+  /* ── 미달 시 최단 경로 ── */
+  function gapsInd(exp, credit, fieldOk){
+    var g = [];
+    if(credit<41) g.push({t:"학점은행 <b>"+(41-credit)+"학점</b> 추가 이수", w:(41-credit)});
+    if(fieldOk) g.push({t:"인정 직무분야 경력 <b>"+gapTxt(2-exp)+"</b> 추가", w:(2-exp)*40});
+    g.push({t:"<b>위험물기능사</b> 먼저 취득(응시 제한 없음) 후 경력 1년", w:60});
+    g.sort(function(a,b){return a.w-b.w;});
+    return g;
+  }
+  function gapsEng(exp, credit, fieldOk, indPass){
+    var g = [];
+    if(credit<106) g.push({t:"학점은행 <b>"+(106-credit)+"학점</b> 추가 이수", w:(106-credit)});
+    if(fieldOk) g.push({t:"인정 직무분야 경력 <b>"+gapTxt(4-exp)+"</b> 추가", w:(4-exp)*40});
+    if(indPass) g.push({t:"<b>산업기사를 먼저 취득</b>하고 경력 1년", w:50});
+    else g.push({t:"<b>위험물기능사 → 산업기사</b> 순으로 단계 취득", w:150});
+    g.sort(function(a,b){return a.w-b.w;});
+    return g;
+  }
+
+  $("go").addEventListener("click", function(){
+    var edu    = $("edu").value,
+        major  = $("major").value,
+        cert   = $("cert").value,
+        field  = $("field").value,
+        exp    = parseInt($("exp").value,10),
+        credit = parseInt($("credit").value,10);
+
+    if(!edu || !major || !cert || !field || isNaN(exp) || isNaN(credit)){
+      $("err").hidden = false; $("res").hidden = true; return;
+    }
+    $("err").hidden = true;
+    okList = []; noList = [];
+
+    var F = FIELD[field], M = MAJOR[major];
+    if(field === "noexp") exp = 0;
+
+    /* ── 군 복무 경력 ──
+       특기가 속한 직무분야를 찾아 종목군별로 따로 더합니다.
+       민간 경력과 군 경력의 직무분야가 달라도 각각 인정되는 쪽에만 붙습니다. */
+    var milR = specKeys();
+    var milMon = parseInt($("milMon").value, 10);
+    if(isNaN(milMon) || milMon < 0) milMon = 0;
+    var milYr = milMon / 12;
+    var milS = 0, milH = 0, milLabel = "";
+    if(milR && milYr > 0){
+      var mS = 0, mH = 0;
+      for(var mi = 0; mi < milR.keys.length; mi++){
+        var FK = FIELD[milR.keys[mi]];
+        if(!FK) continue;
+        if(FK.s > mS) mS = FK.s;
+        if(FK.h > mH) mH = FK.h;
+      }
+      if(mS >= 1) milS = milYr;
+      if(mH >= 1) milH = milYr;
+      milLabel = FORCE_NM[$("milForce").value] + " " + milR.name;
+      var milFldNm = milR.keys.map(function(k){ return FIELD[k] ? FIELD[k].t : k; }).join(" · ");
+    }
+
+    /* 종목군별 인정 경력 — 미인정 분야면 0년으로 계산 */
+    var expS = ((F.s >= 1) ? exp : 0) + milS;
+    var expH = ((F.h >= 1) ? exp : 0) + milH;
+    var relS = (M.s >= 1), relH = (M.h >= 1);
+
+    /* 종목군별 판정 결과 캐시 */
+    var indS = judgeInd(relS, edu, cert, expS, credit);
+    var indH = judgeInd(relH, edu, cert, expH, credit);
+    var engS = judgeEng(relS, edu, cert, expS, credit);
+
+    var html = "";
+
+    /* ── 군 경력 반영 결과 ── */
+    if(milR && milYr > 0){
+      var okTxt = [];
+      if(milS > 0) okTxt.push("산업안전 · 소방설비");
+      if(milH > 0) okTxt.push("위험물");
+      html += '<div class="el-warn" style="background:#F4F9FF;border-color:#C6DCF2">'+
+        '<h4 style="color:#17457F">🎖 군 복무 경력을 반영했습니다</h4>'+
+        '<b>'+milLabel+'</b> · 직무분야 <b>'+milFldNm+'</b> · '+milMon+'개월'+
+        (okTxt.length
+          ? ' → <b>'+okTxt.join(", ")+'</b> 응시자격 경력으로 <b>'+gapTxt(milYr)+'</b> 인정했습니다.'
+          : ' → 이 특기의 직무분야는 세 종목 어느 쪽에도 인정되지 않아 <b>0년</b>으로 계산했습니다.')+
+        '<br>기초군사훈련 기간은 산정에서 제외됩니다. 증빙은 <b>병적증명서</b> 또는 소속 부대 발급 <b>경력증명서</b>로 하며, '+
+        '최종 인정 여부는 한국산업인력공단이 개별 심사합니다.</div>';
+    }
+    else if($("milForce").value && !milR){
+      html += '<div class="el-warn"><h4>⚠️ 군 특기를 확인하지 못했습니다</h4>'+
+        '입력하신 특기명이 인정 범위표에 없어 <b>군 경력을 0년으로</b> 계산했습니다. '+
+        '특기명이 바뀌었을 수도 있고, <b>인정 범위표 자체에 없는 특기</b>(행정·재정·군종 등)일 수도 있습니다. '+ '아래 목록에서 다시 찾아보시고, '+
+        '없으면 <b>1644-8000</b>으로 확인하세요.</div>';
+    }
+
+    /* ── 경고 1 : 경력이 아예 인정 안 되는 분야 ── */
+    if(exp > 0 && F.s === 0 && F.h === 0){
+      html += '<div class="el-warn"><h4>⚠️ 선택하신 분야의 경력은 응시자격 경력으로 계산되지 않습니다</h4>'+
+        '<b>'+F.t+'</b> 분야는 국가기술자격법 시행규칙 별표 11의2의 인정 범위에 포함되지 않습니다. '+
+        '경력 연수와 관계없이 <b>0년</b>으로 계산했습니다.<br>'+
+        '다만 같은 회사 안에서도 <b>생산관리·설비·품질관리 업무를 실제로 수행</b>했다면 인정될 수 있습니다. '+
+        '판정 주체는 한국산업인력공단이므로, 애매하면 원서 접수 전에 큐넷 응시자격 자가진단 또는 1644-8000으로 확인하세요.</div>';
+    }
+    /* ── 경고 2 : 안전관리군은 되는데 위험물은 안 되는 분야 ── */
+    else if(exp > 0 && F.s >= 1 && F.h === 0){
+      html += '<div class="el-warn"><h4>⚠️ 이 경력은 산업안전·소방설비에는 인정되지만 위험물에는 인정되지 않습니다</h4>'+
+        '<b>'+F.t+'</b> 분야는 안전관리(25) 종목의 유사 직무분야에는 포함되지만, '+
+        '위험물이 속한 화학(18) 분야의 유사 직무분야에는 <b>포함되지 않습니다</b>. '+
+        '그래서 위험물산업기사는 경력 경로가 아닌 <b>학점은행 41학점</b> 또는 <b>위험물기능사 선취득</b> 경로로 가야 합니다.</div>';
+    }
+    /* ── 경고 3 : 전공 인정 확인 필요 ── */
+    if(M.s === 1 || M.h === 1){
+      html += '<div class="el-warn"><h4>⚠️ 전공의 관련학과 인정 여부는 큐넷에서 확인하세요</h4>'+
+        '관련학과 판단은 <b>학과 명칭이 아니라 이수한 교육과정</b> 기준이고, 종목마다 지정 학과 목록이 다릅니다. '+
+        '아래 결과는 관련학과로 인정된다는 가정으로 계산했습니다. '+
+        '큐넷 <b>응시자격 자가진단</b> 또는 <b>1644-8000</b>으로 확인해 두시면 안전합니다.</div>';
+    }
+
+    /* ── 종목 카드 ── */
+    var okHtml = "", noHtml = "";
+    for(var i=0;i<ITEMS.length;i++){
+      var it = ITEMS[i], pass = false, reasons = [], gaps = [];
+      var rel = (it.fam==="s") ? relS : relH;
+      var e   = (it.fam==="s") ? expS : expH;
+      var fieldOk = (it.fam==="s") ? (F.s>=1) : (F.h>=1);
+
+      if(it.grade === "craft"){
+        pass = true; reasons = ["기능사는 학력·경력 제한이 없습니다"];
+      } else if(it.grade === "ind"){
+        reasons = (it.fam==="s") ? indS : indH;
+        pass = reasons.length > 0;
+        if(!pass) gaps = gapsInd(e, credit, fieldOk);
+      } else {
+        reasons = engS;
+        pass = reasons.length > 0;
+        if(!pass) gaps = gapsEng(e, credit, fieldOk, ((it.fam==="s") ? indS : indH).length > 0);
+      }
+
+      var card = '<div class="el-row '+(pass?"ok":"no")+'">'+
+        '<div class="nm">'+it.name+'<em class="e-'+it.col+'">'+it.label+'</em></div>';
+      if(pass){
+        card += '<p class="rs">✅ <b>응시 가능</b> — '+reasons[0]+'</p>' + courseBox(it.name);
+        okList.push(it.name);
+        okHtml += card + '</div>';
+      } else {
+        card += '<p class="rs">아래 중 하나를 채우면 응시할 수 있습니다.</p><ul class="strat">';
+        for(var j=0;j<gaps.length;j++){
+          card += '<li'+(j===0?' class="best"':'')+'>'+gaps[j].t+(j===0?' &nbsp;← 가장 빠른 길':'')+'</li>';
+        }
+        noList.push(it.name);
+        noHtml += card + '</ul></div>';
+      }
+    }
+
+    html += '<div class="band"><h2>지금 응시할 수 있는 자격</h2>'+
+            '<p class="s">현재 조건으로 바로 원서 접수가 가능합니다.</p>'+ okHtml +'</div>';
+    if(noHtml){
+      html += '<div class="band no"><h2>아직 자격이 안 되는 것 — 확보 전략</h2>'+
+              '<p class="s">가장 빠른 길에 표시해 두었습니다.</p>'+ noHtml +'</div>';
+    }
+
+    /* ── 경력증명서 기재 가이드 ── */
+    if(exp > 0){
+      html += '<div class="guide"><h3>경력증명서, 이렇게 쓰면 인정받지 못합니다</h3>'+
+        '<p class="s">공단은 회사 업종이나 부서명이 아니라 <strong>담당업무 칸에 적힌 실제 업무</strong>로 분야를 판정합니다.</p>'+
+        '<table><thead><tr><th>담당업무 기재</th><th>판정</th></tr></thead><tbody>'+
+        '<tr><td class="bad" style="background:#fff;text-align:left;white-space:normal">생산직</td><td style="text-align:left">직무 확인 불가 — 보완 요구 또는 불인정</td></tr>'+
+        '<tr><td class="bad" style="background:#fff;text-align:left;white-space:normal">사원 / 대리 / 반장</td><td style="text-align:left">직위일 뿐 업무가 아님 — 판정 불가</td></tr>'+
+        '<tr><td class="bad" style="background:#fff;text-align:left;white-space:normal">관리부 근무</td><td style="text-align:left">부서명만으로는 분야 특정 불가</td></tr>'+
+        '<tr><td class="good" style="background:#fff;text-align:left;white-space:normal">자동차 부품 생산 업무</td><td style="text-align:left">생산관리 분야로 판정 가능</td></tr>'+
+        '<tr><td class="good" style="background:#fff;text-align:left;white-space:normal">화학제품 제조설비 운전</td><td style="text-align:left">화학 분야로 판정 가능</td></tr>'+
+        '<tr><td class="good" style="background:#fff;text-align:left;white-space:normal">건설현장 안전점검 및 안전교육</td><td style="text-align:left">안전관리 분야로 판정 가능</td></tr>'+
+        '</tbody></table>'+
+        '<p class="el-src">회사에 경력증명서를 요청할 때 <strong>담당업무를 구체적으로 기재해 달라고 미리 요청</strong>하세요. '+
+        '단, 실제로 수행하지 않은 업무를 기재하면 자격이 취소될 수 있습니다. '+
+        '사실대로 쓰되 <strong>구체적으로</strong> 쓰는 것이 핵심입니다.</p></div>';
+    }
+
+    /* ── 탈락고객 확보 블록 ──
+       "지금은 안 됩니다"로 끝내면 그 사람은 창을 닫고 끝입니다.
+       그런데 '2년 뒤 가능'으로 나온 사람은 2년 뒤 확실한 고객입니다.
+       그 시점을 알려드리겠다고 제안해 명단에 남기는 것이 이 블록의 목적입니다. ── */
+    if(noList.length > 0){
+      var nearest = noList[0];
+      html += '<div class="nurture" id="nurture">'+
+        '<h3>지금 안 되는 자격, 언제 가능해지는지 알려드릴까요</h3>'+
+        '<p class="s">위에 표시된 <strong>'+ noList.length +'개</strong> 자격은 조건이 채워지면 바로 응시할 수 있습니다. '+
+        '조건을 채우는 시점이 되면 그때 먼저 알려드립니다. 광고는 보내지 않습니다.</p>'+
+        '<ul class="nurture-list">'+
+          '<li>응시자격이 생기는 시점에 <strong>알림</strong></li>'+
+          '<li>해당 자격 <strong>기출문제·개강 일정</strong>을 그때 함께</li>'+
+          '<li>지금 바로 가능한 자격이 있으면 <strong>그쪽 안내</strong></li>'+
+        '</ul>'+
+        '<div class="nurture-cta">'+
+          '<button type="button" class="b1" id="notifyGo">알림 신청하기</button>'+
+          '<a class="ghost" href="'+ KAKAO +'" target="_blank" rel="noopener">카카오톡 채널 추가</a>'+
+        '</div>'+
+        '<p class="el-src">신청하시면 이름과 연락처만 받습니다. 언제든 그만 받으실 수 있습니다.</p>'+
+      '</div>';
+    }
+
+    /* ── 2단계 : 내일배움카드 ── */
+    html += '<div class="step2" id="step2"><h3>다음 단계 — 국비 지원 확인</h3>'+
+      '<p>응시 가능한 자격이 <strong>'+okList.length+'개</strong> 있습니다. '+
+      '국비 과정으로 준비하시려면 <strong>내일배움카드</strong>가 필요합니다.</p>'+
+      '<button type="button" class="b1" id="cardY">카드가 있습니다 → 수강신청 안내</button>'+
+      '<button type="button" class="b2" id="cardN">카드가 없습니다 → 발급 안내</button>'+
+      '<button type="button" class="b2" id="cardU">잘 모르겠습니다 → 상담</button></div>';
+
+    html += '<div id="final"></div>';
+
+    $("res").innerHTML = html;
+
+    /* 알림 신청 → 상담 신청 팝업을 '알림 신청' 모드로 엽니다 */
+    var nb = $("notifyGo");
+    if(nb) nb.addEventListener("click", function(){
+      if(typeof track === "function") track("notify_open", noList.join("/"));
+      var msg = document.getElementById("cf-msg");
+      if(msg && !msg.value){
+        msg.value = "[알림 신청] 아직 자격이 안 되는 자격: " + noList.join(", ")
+                  + " / 조건이 채워지는 시점에 알려주세요.";
+      }
+      var opener = document.querySelector("[data-open-form]");
+      if(opener) opener.click();
+      else location.href = "/apply/";
+    });
+    $("res").hidden = false;
+    $("res").scrollIntoView({behavior:"smooth", block:"start"});
+
+    function finalBlock(kind){
+      var h="", p="", steps="", a1="";
+      if(kind==="Y"){
+        h = "바로 수강신청하실 수 있습니다";
+        p = "카드가 있으시면 고용24에서 과정을 검색해 신청하면 됩니다. 어느 과정이 맞는지 헷갈리시면 상담에서 정해 드립니다.";
+        steps = '<ol><li>고용24 로그인 → 훈련과정 검색</li><li>\u2018지행재직업전문학교\u2019로 검색</li><li>해당 과정 수강신청</li></ol>';
+        a1 = "과정 선택 상담 신청하기";
+      } else if(kind==="N"){
+        h = "먼저 내일배움카드부터 발급받으세요";
+        p = "카드 발급에 <strong>1~2주</strong>가 걸리므로, 개강일을 놓치지 않으려면 지금 신청하시는 것이 좋습니다.";
+        steps = '<ol><li>고용24 회원가입</li><li>내일배움카드 신청 (온라인 약 15분)</li><li>승인까지 1~2주 대기</li><li>카드 발급 후 수강신청</li></ol>';
+        a1 = "발급이 어렵다면 상담 신청하기";
+      } else {
+        h = "상담에서 한 번에 확인해 드립니다";
+        p = "카드 보유 여부, 자부담 금액, 개강 일정까지 함께 짚어 드립니다.";
+        a1 = "상담 신청하기";
+      }
+      var out = '<div class="cta"><h3>'+h+'</h3><p>'+p+'</p>'+steps+
+        '<a class="primary" href="'+KAKAO+'" target="_blank" rel="noopener">'+a1+'</a>';
+      if(kind==="N") out += '<a class="ghost" href="'+CARD+'" target="_blank" rel="noopener">고용24에서 카드 신청하기</a>';
+      out += '<a class="ghost" href="'+TEL+'">전화 상담 052-267-3172</a>'+
+        '<a class="ghost" href="'+HOME+'" target="_blank" rel="noopener">과정 안내 보기</a>'+
+        '<p class="credit">이 진단 결과는 지행재직업전문학교가 제공합니다 · © 2026 jhj.education</p></div>';
+      $("final").innerHTML = out;
+      $("final").scrollIntoView({behavior:"smooth", block:"start"});
+    }
+    $("cardY").addEventListener("click", function(){ finalBlock("Y"); });
+    $("cardN").addEventListener("click", function(){ finalBlock("N"); });
+    $("cardU").addEventListener("click", function(){ finalBlock("U"); });
+  });
+})();
+
+})();
+
+/* =========================================================
+   ★ 국가기술자격 응시일정 — 상단 띠에 표시
+   ※ 아래 값은 자리를 잡기 위한 임시 데이터입니다.
+     실제 운영에서는 공공데이터 API(한국산업인력공단 국가자격 시험일정)가
+     구글시트 [시험일정] 탭에 넣어준 값을 읽어옵니다.
+     ▶ 반드시 실제 회차표로 교체한 뒤 공개하세요.
+   ========================================================= */
+const EXAMS = [
+  { name:"산업안전기사 필기", round:"2026년 3회", apply:"2026-08-17", exam:"2026-09-12" },
+  { name:"위험물기능사 실기", round:"2026년 4회", apply:"2026-09-01", exam:"2026-10-10" },
+  { name:"소방설비산업기사 실기", round:"2026년 3회", apply:"2026-09-21", exam:"2026-11-07" }
+];
+
+(function(){
+  const box=document.getElementById('barExam'); if(!box) return;
+  const today=new Date(); today.setHours(0,0,0,0);
+
+  // 원서접수가 아직 남은 회차만, 접수일이 가까운 순서로
+  const list = EXAMS
+    .map(e => ({...e, d: Math.ceil((new Date(e.apply)-today)/86400000)}))
+    .filter(e => e.d >= 0)
+    .sort((a,b) => a.d - b.d);
+
+  if(!list.length){ box.innerHTML = '<span class="exam-label">시험일정 준비 중</span>'; return; }
+
+  const html = e =>
+    `<span class="dday-x num">원서접수 D-${e.d}</span>` +
+    `<span class="exam-label"><b>${e.name}</b> ${e.round} · 시험 ${fmt(e.exam)}</span>`;
+
+  box.innerHTML = html(list[0]);
+
+  // 1건이거나 애니메이션을 줄이는 설정이면 회전하지 않습니다
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(list.length < 2 || reduce) return;
+
+  let i = 0, timer = null;
+  const ROTATE_MS = 4000;
+
+  function step(){
+    i = (i + 1) % list.length;
+    box.classList.add('is-out');
+    setTimeout(() => {
+      box.innerHTML = html(list[i]);
+      box.classList.remove('is-out');
+    }, 260);
+  }
+  function play(){ timer = setInterval(step, ROTATE_MS); }
+  function stop(){ clearInterval(timer); timer = null; }
+
+  play();
+  // 읽는 중에는 멈춥니다
+  box.addEventListener('mouseenter', stop);
+  box.addEventListener('mouseleave', play);
+  document.addEventListener('visibilitychange', () => document.hidden ? stop() : play());
+})();
+
+<\/script>
+
+<!-- 도메인 잠금 -->
+<script>
+(function(){
+  /* ★ PREVIEW_MODE : 시안을 검토하는 동안만 true.
+     실제 도메인에 올리기 전에 반드시 false 로 바꾸십시오. */
+  /* ★ PREVIEW_MODE : 시안을 검토하는 동안만 true. 배포본은 false. */
+  var PREVIEW_MODE = false;
+  if(PREVIEW_MODE) return;
+
+  var ALLOW_HOSTS = [
+    /* ★② 실제 운영 도메인만 넣는다. 빈 문자열("")을 다시 넣지 말 것 —
+       srcdoc iframe이 무조건 통과해 잠금이 무력화된다. */
+    "jihaengjae.github.io",
+    "jhj.education",
+    "www.jhj.education",
+    "localhost", "127.0.0.1"
+  ];
+
+  /* ── 호스트 판정 ──
+     랜딩에 내장될 때는 srcdoc iframe이라 주소가 about:srcdoc이고
+     location.hostname 이 빈 문자열이다. 그럴 땐 부모 문서의 호스트를 본다.
+     판정이 불가능하면 차단한다(기본값 차단). */
+  function __host(){
+    if(location.hostname) return location.hostname;
+    try{ if(window.parent && window.parent !== window && window.parent.location.hostname)
+           return window.parent.location.hostname; }catch(e){}
+    try{ if(document.referrer) return new URL(document.referrer).hostname; }catch(e){}
+    return "";
+  }
+  /* 로컬 파일(file://) 검토는 허용 — 공개 배포가 아니므로 도용 경로가 아니다 */
+  var __proto = location.protocol;
+  try{ if(!location.hostname && window.parent !== window) __proto = window.parent.location.protocol; }catch(e){}
+  if(__proto === "file:") return;
+
+  if(ALLOW_HOSTS.indexOf(__host()) === -1){
+    document.body.innerHTML =
+      '<div style="max-width:520px;margin:80px auto;padding:40px 24px;text-align:center;'+
+      'font-family:Pretendard,\'Apple SD Gothic Neo\',sans-serif;background:#fff;'+
+      'border:1px solid #DDE1E8;border-radius:14px;line-height:1.8;color:#242424">'+
+      '<p style="font-size:17px;font-weight:800;color:#1B2740;margin:0 0 10px">'+
+      '지행재직업전문학교 제공 도구입니다</p>'+
+      '<p style="font-size:15px;color:#6B7280;margin:0 0 22px">'+
+      '이 응시자격 자가진단은 공식 사이트에서만 이용하실 수 있습니다.</p>'+
+      '<a href="https://www.jhj.education" style="display:inline-block;background:#1FA85A;'+
+      'color:#fff;text-decoration:none;font-weight:800;padding:13px 26px;border-radius:8px">'+
+      'jhj.education에서 이용하기</a>'+
+      '<p style="font-size:12px;color:#98A0AC;margin:22px 0 0">© 2026 지행재직업전문학교</p></div>';
+  }
+})();
+<\/script>
+</body>
+</html>
+</script>
+
+<div id="elig-overlay">
+  <div class="elig-modal">
+    <button data-act="elig-close" class="elig-close" aria-label="닫기">&#10005;</button>
+    <iframe id="elig-frame" title="안전 3종 응시자격 자가진단" src="about:blank"></iframe>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  ['elig-overlay','consult-overlay','zoom-overlay'].forEach(function(id){
+    var ov=document.getElementById(id);
+    if(!ov) return;
+    ov.addEventListener('click', function(e){
+      if(e.target!==this) return;
+      if(id==='elig-overlay') closeEligibility(); else if(id==='zoom-overlay') closeZoom(); else closeConsultPopup();
+    });
+  });
+});
+</script>
+
+<script>
+/* ── 임베드 실패 감지: 3초 안에 load 이벤트가 없으면 안내를 띄운다 ── */
+(function(){
+  var done=false;
+  function ready(){
+    var f=document.getElementById('consult-frame');
+    if(!f) return;
+    f.addEventListener('load', function(){ done=true; });
+    setTimeout(function(){
+      if(done) return;
+      var fb=document.getElementById('consult-fallback');
+      if(fb){ fb.style.display='block'; }
+      f.style.display='none';
+    }, 3000);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', ready);
+  else ready();
+})();
+</script>
+
+<!-- ===== 상담문의 팝업 (구글폼 연동) ===== -->
+<div id="consult-overlay">
+  <div style="background:#fff; border-radius:12px; width:92%; max-width:520px; padding:28px 24px 20px; box-shadow:0 20px 60px rgba(0,0,0,0.35); position:relative; font-family:'Noto Sans KR',sans-serif;">
+    <button data-act="form-close" aria-label="닫기"
+      style="position:absolute; top:14px; right:16px; background:none; border:none; font-size:22px; color:#667; cursor:pointer; line-height:1;">&#10005;</button>
+    <div style="margin-bottom:16px;">
+      <p style="margin:0 0 4px; font-size:12px; font-weight:700; letter-spacing:1.5px; color:#E8530E;">지행재직업전문학교</p>
+      <h2 style="margin:0; font-size:20px; font-weight:800; color:#102A43; line-height:1.3;">산대특 과정 무료 상담</h2>
+      <p style="margin:6px 0 0; font-size:13px; color:#555;">아래 양식을 작성하시면 빠르게 연락드리겠습니다.</p>
+    </div>
+    <div id="consult-fallback" style="display:none; padding:22px 18px; border:1px dashed #D8DCE3; border-radius:8px; background:#F8F8F4; text-align:center; font-size:14px; color:#5D6872; line-height:1.7;">
+      신청서가 화면에 열리지 않았습니다.<br>아래 버튼으로 새 창에서 작성하시거나 전화 주십시오.
+    </div>
+    <iframe id="consult-frame"
+      src="https://docs.google.com/forms/d/e/1FAIpQLScvNmfZzWD6zz5dwgGpkz_KkpsVwTQlCqHSU7wEJ49Nw3VQpA/viewform?embedded=true"
+      width="100%" height="480" frameborder="0" marginheight="0" marginwidth="0"
+      style="border-radius:8px; display:block;">로딩 중…</iframe>
+    <div style="display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-top:14px;">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScvNmfZzWD6zz5dwgGpkz_KkpsVwTQlCqHSU7wEJ49Nw3VQpA/viewform" target="_blank" rel="noopener" data-act="form-open"
+         style="flex:1 1 180px; text-align:center; background:#102A43; color:#fff; text-decoration:none; font-weight:700; font-size:14px; padding:12px 16px; border-radius:8px;">새 창에서 신청서 열기</a>
+      <a href="tel:052-267-3172" data-act="call"
+         style="flex:1 1 180px; text-align:center; background:#fff; color:#102A43; text-decoration:none; font-weight:700; font-size:14px; padding:12px 16px; border-radius:8px; border:2px solid #E8530E;">052-267-3172 전화 상담</a>
+    </div>
+    <p style="margin:10px 0 0; font-size:12px; color:#8A929B; text-align:center;">신청서가 보이지 않으면 위 버튼을 눌러 주십시오.</p>
+  </div>
+</div>
+
+<script>
+/* ── 상담폼 자동 노출: 스크롤 50% 또는 45초 중 먼저 오는 쪽, 1회만 ── */
+function __scrollDepth(){
+  var h=document.documentElement;
+  var denom=(h.scrollHeight - h.clientHeight);
+  return denom>0 ? (h.scrollTop||document.body.scrollTop)/denom : 0;
+}
+window.addEventListener('scroll', function(){
+  if(!__autoShown && __scrollDepth() >= 0.5){ __popupTrigger='scroll50'; openConsultPopup(); }
+}, {passive:true});
+window.addEventListener('load', function(){
+  setTimeout(function(){ if(!__autoShown){ __popupTrigger='time45'; openConsultPopup(); } }, 45000);
+});
+
+</script>
+  
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "25aec31b514fc80";
+if(window.wcs) {
+wcs_do();
+}
+</script>
+  
+</body>
+</html>
