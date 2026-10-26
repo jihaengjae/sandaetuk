@@ -2,7 +2,7 @@
 <!--
   ============================================================
    (산대특) 2026년 2차 모집 랜딩 — 지행재직업전문학교
-   file : 지행재_산대특랜딩_v2_1_4.html
+   file : 지행재_산대특랜딩_v2_1_5.html
    © 2026 지행재직업전문학교 · https://www.jhj.education
    울산광역시 남구 북부순환도로 17 남운프라자 502호 · 052-267-3172
    무단 복제·배포·2차적 저작물 작성을 금합니다. 인용·링크는 자유입니다.
@@ -28,6 +28,8 @@
      ④ 잔여석 숫자 — data-seat 표시 3곳
      ⑤ (해소 2026-09-14) 면제 종료일 2027-01-11 확정 · 300시간 훈련비 확정
   ------------------------------------------------------------
+   v2_1_5 (2026-10-26)
+     · 상담폼 자동 팝업(스크롤 50%·45초) 해제 — 버튼 클릭 시에만 열림
    v2_1_4 (2026-10-22)
      · 선임안전관리 양성 300시간 일정 변경 — 2026-10-26~2027-01-05 → 2026-11-04~2027-01-14
        (meta·히어로·즉답·카드·비교표·신청절차·JSON-LD·자가진단기 COURSES 일괄)
@@ -2127,12 +2129,15 @@ function __scrollDepth(){
   var denom=(h.scrollHeight - h.clientHeight);
   return denom>0 ? (h.scrollTop||document.body.scrollTop)/denom : 0;
 }
+/* 자동 팝업 해제 (2026-10-26) — 상담 신청서 버튼을 눌렀을 때만 열림.
+   다시 켜려면 이 주석 블록만 풀면 된다.
 window.addEventListener('scroll', function(){
   if(!__autoShown && __scrollDepth() >= 0.5){ __popupTrigger='scroll50'; openConsultPopup(); }
 }, {passive:true});
 window.addEventListener('load', function(){
   setTimeout(function(){ if(!__autoShown){ __popupTrigger='time45'; openConsultPopup(); } }, 45000);
 });
+*/
 
 </script>
   
