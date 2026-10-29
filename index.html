@@ -726,6 +726,9 @@ table .badge-o{background:#B57200}
   ]
 }
 </script>
+<!-- GA4 (2026-10-29, 홈페이지와 같은 측정 ID) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXKJRZFRG4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXKJRZFRG4');</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -2143,5 +2146,21 @@ window.addEventListener('load', function(){
   
 
   
+<!-- 상담 3버튼 (2026-10-29) -->
+<style>
+.jhj-cta3{position:fixed;left:0;right:0;bottom:0;z-index:9998;display:flex;gap:6px;padding:8px;background:rgba(255,255,255,.97);box-shadow:0 -2px 10px rgba(0,0,0,.12);box-sizing:border-box}
+.jhj-cta3 a{flex:1;display:flex;align-items:center;justify-content:center;gap:4px;min-height:48px;border-radius:10px;font-weight:800;font-size:15px;line-height:1.2;text-decoration:none!important;box-sizing:border-box}
+.jhj-cta3 .c1{background:#1B2740;color:#fff!important}
+.jhj-cta3 .c2{background:#03C75A;color:#fff!important}
+.jhj-cta3 .c3{background:#fff;color:#03A94D!important;border:2px solid #03C75A}
+body{padding-bottom:72px}
+.kakao-float{bottom:84px!important}
+@media(min-width:900px){.jhj-cta3{left:50%;right:auto;transform:translateX(-50%);bottom:16px;width:560px;border-radius:14px}body{padding-bottom:88px}.kakao-float{bottom:96px!important}}
+</style>
+<nav class="jhj-cta3" aria-label="상담 바로가기">
+<a class="c1" href="tel:052-267-3172" onclick="if(window.naverConversionCall){naverConversionCall();}if(window.gtag){gtag('event','click_call',{channel:'landing',page:'sandaetuk'});}">☎ 전화 상담</a>
+<a class="c2" href="https://booking.naver.com/booking/12/bizes/1724214?utm_source=landing&amp;utm_medium=cta_bar&amp;utm_campaign=sandaetuk" target="_blank" rel="noopener" onclick="if(window.gtag){gtag('event','click_booking',{channel:'landing',page:'sandaetuk'});}">📅 상담 예약</a>
+<a class="c3" href="https://talk.naver.com/w1lkxd7?utm_source=landing&amp;utm_medium=cta_bar&amp;utm_campaign=sandaetuk" target="_blank" rel="noopener" onclick="if(window.gtag){gtag('event','click_talk',{channel:'landing',page:'sandaetuk'});}">💬 톡톡 문의</a>
+</nav>
 </body>
 </html>
